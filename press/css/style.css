@@ -1,0 +1,247 @@
+.l-press-header {
+	text-align: center;
+	position: relative;
+}
+.l-press-header h1 {
+	margin-bottom: 0 !important;
+}
+
+#main h2 {
+	margin-top: 0;
+	text-align: center;
+}
+.l-press-body {
+	overflow: hidden;
+	background: #e6e6e8;
+}
+.l-press-body_inner {
+	width: 87.93%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.l-press_hands-box {
+	background: #fff;
+	margin-bottom: 2em;
+}
+.l-press_hands-box .detail {
+	padding: 1em;
+}
+
+.l-press_tsunagu-box {
+	background: #fff;
+	margin-bottom: 2em;
+}
+.l-press_tsunagu-box .detail {
+	padding: 1em;
+}
+.l-press_other-box {
+	background: #fff;
+	margin-bottom: 2em;
+}
+.l-press_other-box .detail {
+	padding: 1em;
+}
+#lectureList{
+	display: flex;
+	width: 100%;
+	margin-bottom: 2em;
+}
+#lectureList li{
+	box-sizing: border-box;
+	width: 20%;
+}
+#lectureList li:first-child a{
+	border-left: 1px solid #000;
+}
+#lectureList li a{
+	display:block;
+	padding: 0.1em;
+	text-align:center;
+	vertical-align: middle;
+	border: 1px solid #000;
+	border-left: none;
+}
+#lectureList li .active, 
+#lectureList li a:hover{
+	background: #000;
+	color: #fff;
+	opacity: 1.0;
+}
+.lectureBox{
+	display:none;
+}
+.lectureBox:first-child{
+	display:block;
+}
+
+.frameYoutube{
+	position: relative;
+	padding-bottom: 56.263736%;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.frameYoutube iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+/*.l-press-header .text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: table-row;
+}
+.l-press-header h1 {
+	position: relative;
+	font-family: 'Century Gothic';
+	font-size: 8.66em !important;
+	letter-spacing: 0 !important;
+}
+.l-press-header small {
+	position: relative;
+	font-family: 'Century Gothic';
+	font-size: 0.66em;
+}
+.l-press-header p {
+	position: relative;
+	text-align: center !important;
+	font-family: 'リュウミン R-KL';
+}
+.l-press-header p.catchCopy {
+	font-size: 1.66em;
+}
+.l-press-header p.copy {
+	font-size: 1.25em;
+}
+.l-press-header .backgroundImg {
+}*/
+
+	.l-press-body {
+		padding-top: 5em;
+}
+	.l-press-body h2 {
+		text-align: center !important;
+		font-weight: bold;
+		margin-bottom: 2em;
+}
+
+	.l-press_hands {
+		overflow: hidden;
+		margin-bottom: 28px;
+}
+	.l-press_hands-row {
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 4em;
+}
+	.l-press_hands-box {
+		background: #fff;
+		float: right;
+		width: 46.4%;
+		margin-bottom: 0;
+}
+	.l-press_hands-box a {
+		width: 100%;
+		display: table;
+		overflow: hidden;
+}
+	.l-press_hands-box:first-child {
+		float: left;
+}
+	.l-press_hands-box .image {
+		width: 41.7%;
+		display: table-cell;
+}
+	.l-press_hands-box .detail {
+		width: 58.3%;
+		display: table-cell;
+		vertical-align: top;
+		padding-top: 19.6%;
+		padding-left: 9.6%;
+		padding-right: 9.6%;
+		padding-bottom: 0;
+}
+	.l-press_hands-box .detail .number {
+		border-bottom: 1px solid #3d3d3d;
+		margin-bottom: .7em;
+		font-weight: bold;
+		font-size: 1em !important;
+}
+	.l-press_hands-box .detail .title {
+		font-size: 1.33em !important;
+		font-weight: bold;
+		line-height: 1.5 !important;
+}
+
+
+	.l-press_tsunagu {
+		overflow: hidden;
+		margin-bottom: 48px;
+		margin-left: -3.8%;
+}
+	.l-press_tsunagu-box {
+		background: none;
+		float: left;
+		width: 21.5%;
+		margin-left: 3.5%;
+}
+	.l-press_tsunagu-box .image {
+		margin-bottom: .2em;
+}
+	.l-press_tsunagu-box .detail {
+		padding: 0;
+}
+	.l-press_tsunagu-box .detail .number,
+	.l-press_tsunagu-box .detail .title {
+		/*font-size: 1.25em;*/
+		font-weight: bold;
+		line-height: 1.5 !important;
+}
+
+	.l-press_other {
+		overflow: hidden;
+		margin-bottom: 48px;
+		margin-left: -3.2%;
+}
+	.l-press_other-box {
+		background: none;
+		float: left;
+		width: 16.8%;
+		margin-left: 3.2%;
+		margin-bottom: 2em;
+}
+	.l-press_other-box.l-press_other-box-2 {
+		width: 36.8%;
+}
+	.l-press_other-box .image {
+		margin-bottom: .2em;
+}
+	.l-press_other-box .detail {
+		padding: 0;
+}
+	.l-press_other-box .detail .number,
+	.l-press_other-box .detail .title {
+		/*font-size: 1.25em;*/
+		font-weight: bold;
+		line-height: 1.5 !important;
+}
+
+}
+
+.fz105{
+	font-size: 10.5px !important;
+}

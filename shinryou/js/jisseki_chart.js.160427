@@ -1,0 +1,311 @@
+(function() {
+  google.load('visualization', '1.0', {
+    'packages': ['corechart']
+  });
+
+  $(function() {
+    var drawChart, ie8_flg, ua, ver;
+    ua = window.navigator.userAgent.toLowerCase();
+    ver = window.navigator.appVersion.toLowerCase();
+    ie8_flg = ua.indexOf("msie") !== -1 && ver.indexOf("msie 8.") !== -1;
+    drawChart = function() {
+      var chart, col, data, i, i_color, i_data, j, num_target_row, options, row, t_data, _aa, _delete_span, _i, _j, _k, _l, _len, _len1, _len10, _len11, _len12, _len13, _len14, _len15, _len16, _len17, _len18, _len2, _len3, _len4, _len5, _len6, _len7, _len8, _len9, _m, _n, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z;
+      t_data = [];
+      i_data = [];
+      i_color = [];
+      if ($('#chartTable').size()) {
+        $('#chartTable').find('tr').each(function(i) {
+          t_data[i] = [];
+          $('th, td', $(this)).each(function(j) {
+            t_data[i][j] = $(this).html();
+          });
+        }).end().find('.legend').each(function(i) {
+          var icon_html, this_color;
+          this_color = $(this).data('color');
+          icon_html = '<i>■</i>';
+          $(this).prepend(icon_html).find('i').css('color', this_color);
+          return i_color[i] = this_color;
+        });
+        if ($('#chartTable').hasClass('cleanChart')) {
+          num_target_row = $('#chartTable').data('delete-column');
+          for (i = _i = 0, _len = t_data.length; _i < _len; i = ++_i) {
+            col = t_data[i];
+            col.splice(num_target_row, 1);
+          }
+        }
+        for (i = _j = 0, _len1 = t_data.length; _j < _len1; i = ++_j) {
+          col = t_data[i];
+          for (j = _k = 0, _len2 = col.length; _k < _len2; j = ++_k) {
+            row = col[j];
+            i_data[j] = [];
+          }
+        }
+        for (i = _l = 0, _len3 = t_data.length; _l < _len3; i = ++_l) {
+          col = t_data[i];
+          for (j = _m = 0, _len4 = col.length; _m < _len4; j = ++_m) {
+            row = col[j];
+            if (i !== 0 && j !== 0) {
+              i_data[j][i] = row * 1;
+              t_data[i][j] = row * 1;
+            } else {
+              i_data[j][i] = row;
+            }
+          }
+        }
+        data = google.visualization.arrayToDataTable(i_data);
+        options = {
+          chartArea: {
+            width: '80%',
+            height: '90%'
+          },
+          width: '100%',
+          height: 420,
+          legend: 'none',
+          bar: {
+            groupWidth: '35%'
+          },
+          isStacked: true,
+          colors: i_color
+        };
+        if (!ie8_flg) {
+          chart = new google.visualization.ColumnChart(document.getElementById('chartDiv'));
+          chart.draw(data, options);
+        }
+      }
+      if ($('#chartTable-02').size()) {
+        t_data = [];
+        i_data = [];
+        i_color = [];
+        $('#chartTable-02').find('tr').each(function(i) {
+          t_data[i] = [];
+          $('th, td', $(this)).each(function(j) {
+            t_data[i][j] = $(this).html();
+          });
+        }).end().find('.legend').each(function(i) {
+          var icon_html, this_color;
+          this_color = $(this).data('color');
+          icon_html = '<i>■</i>';
+          $(this).prepend(icon_html).find('i').css('color', this_color);
+          return i_color[i] = this_color;
+        });
+        if ($('#chartTable-02').hasClass('cleanChart')) {
+          num_target_row = $('#chartTable-02').data('delete-column');
+          for (i = _n = 0, _len5 = t_data.length; _n < _len5; i = ++_n) {
+            col = t_data[i];
+            col.splice(num_target_row, 1);
+          }
+        }
+        for (i = _o = 0, _len6 = t_data.length; _o < _len6; i = ++_o) {
+          col = t_data[i];
+          for (j = _p = 0, _len7 = col.length; _p < _len7; j = ++_p) {
+            row = col[j];
+            i_data[j] = [];
+          }
+        }
+        for (i = _q = 0, _len8 = t_data.length; _q < _len8; i = ++_q) {
+          col = t_data[i];
+          for (j = _r = 0, _len9 = col.length; _r < _len9; j = ++_r) {
+            row = col[j];
+            if (i !== 0 && j !== 0) {
+              i_data[j][i] = row * 1;
+              t_data[i][j] = row * 1;
+            } else {
+              i_data[j][i] = row;
+            }
+          }
+        }
+        data = google.visualization.arrayToDataTable(i_data);
+        options = {
+          chartArea: {
+            width: '80%',
+            height: '90%'
+          },
+          width: '100%',
+          height: 420,
+          legend: 'none',
+          bar: {
+            groupWidth: '35%'
+          },
+          isStacked: true,
+          colors: i_color
+        };
+        if (!ie8_flg) {
+          chart = new google.visualization.ColumnChart(document.getElementById('chartDiv-02'));
+          chart.draw(data, options);
+        }
+      }
+      if ($('#singleChartTable').size()) {
+        $('#singleChartTable').find('tr').each(function(i) {
+          t_data[i] = [];
+          $('th, td', $(this)).each(function(j) {
+            var _$clone, _inner_html;
+            _$clone = $(this).clone();
+            _$clone.find('span').each(function() {
+              if ($(this).hasClass('separater')) {
+                return $(this).replaceWith('・');
+              } else {
+                return $(this).remove();
+              }
+            });
+            _inner_html = _$clone.html();
+            t_data[i][j] = _inner_html;
+          });
+        }).end().find('.legend').each(function(i) {
+          var icon_html, this_color;
+          this_color = $(this).data('color');
+          icon_html = '<i>■</i>';
+          $(this).prepend(icon_html).find('i').css('color', this_color);
+          i_color[i] = this_color;
+          return t_data[i + 1].push(this_color);
+        });
+        t_data[0].push({
+          role: 'style'
+        });
+        if ($('#singleChartTable').hasClass('pickChart')) {
+          num_target_row = $('#singleChartTable').data('pick-column');
+          for (i = _s = 0, _len10 = t_data.length; _s < _len10; i = ++_s) {
+            col = t_data[i];
+            _delete_span = num_target_row - 1;
+            col.splice(1, _delete_span);
+          }
+        }
+        for (i = _t = 0, _len11 = t_data.length; _t < _len11; i = ++_t) {
+          col = t_data[i];
+          for (j = _u = 0, _len12 = col.length; _u < _len12; j = ++_u) {
+            row = col[j];
+            i_data[j] = [];
+          }
+        }
+        for (i = _v = 0, _len13 = t_data.length; _v < _len13; i = ++_v) {
+          col = t_data[i];
+          for (j = _w = 0, _len14 = col.length; _w < _len14; j = ++_w) {
+            row = col[j];
+            if (i !== 0 && j !== 0) {
+              i_data[j][i] = row * 1;
+              if (j !== 2) {
+                t_data[i][j] = row * 1;
+              }
+            } else {
+              i_data[j][i] = row;
+            }
+          }
+        }
+        data = google.visualization.arrayToDataTable(t_data);
+        options = {
+          chartArea: {
+            width: '80%',
+            height: '90%'
+          },
+          width: '100%',
+          height: 420,
+          legend: 'none',
+          colors: i_color,
+          hAxis: {
+            textPosition: 'in',
+            showTextEvery: 1,
+            minTextSpacing: 5
+          }
+        };
+        if (!ie8_flg) {
+          chart = new google.visualization.ColumnChart(document.getElementById('chartDiv'));
+          chart.draw(data, options);
+        }
+      }
+      if ($('#pieChartTable-01').size()) {
+        $('#pieChartTable-01').find('tr').each(function(i) {
+          t_data[i] = [];
+          $('th, td', $(this)).each(function(j) {
+            t_data[i][j] = $(this).html();
+          });
+        }).end().find('.legend').each(function(i) {
+          var icon_html, this_color;
+          this_color = $(this).data('color');
+          icon_html = '<i>■</i>';
+          $(this).prepend(icon_html).find('i').css('color', this_color);
+          return i_color[i] = this_color;
+        });
+        for (i = _x = 0, _len15 = t_data.length; _x < _len15; i = ++_x) {
+          col = t_data[i];
+          i_data[i] = [];
+          for (j = _y = 0, _len16 = col.length; _y < _len16; j = ++_y) {
+            row = col[j];
+            if (j !== 0) {
+              i_data[i][j] = parseInt(row, 10);
+            } else {
+              i_data[i][j] = row;
+            }
+          }
+        }
+        i_data.unshift(['name', 'data']);
+        data = google.visualization.arrayToDataTable(i_data);
+        options = {
+          title: $('#pieChartTable-01 caption').text(),
+          chartArea: {
+            width: '100%',
+            height: '80%'
+          },
+          pieSliceText: 'value',
+          width: '100%',
+          height: 400,
+          colors: i_color
+        };
+        if (!ie8_flg) {
+          chart = new google.visualization.PieChart(document.getElementById('pieChartDiv-01'));
+          chart.draw(data, options);
+        }
+      }
+      if ($('#pieChartTable-02').size()) {
+        $('#pieChartTable-02').find('tr').each(function(i) {
+          t_data[i] = [];
+          $('th, td', $(this)).each(function(j) {
+            t_data[i][j] = $(this).html();
+          });
+        }).end().find('.legend').each(function(i) {
+          var icon_html, this_color;
+          this_color = $(this).data('color');
+          icon_html = '<i>■</i>';
+          $(this).prepend(icon_html).find('i').css('color', this_color);
+          return i_color[i] = this_color;
+        });
+        for (i = _z = 0, _len17 = t_data.length; _z < _len17; i = ++_z) {
+          col = t_data[i];
+          i_data[i] = [];
+          for (j = _aa = 0, _len18 = col.length; _aa < _len18; j = ++_aa) {
+            row = col[j];
+            if (j !== 0) {
+              i_data[i][j] = parseInt(row, 10);
+            } else {
+              i_data[i][j] = row;
+            }
+          }
+        }
+        i_data.unshift(['name', 'data']);
+        data = google.visualization.arrayToDataTable(i_data);
+        options = {
+          title: $('#pieChartTable-02 caption').text(),
+          chartArea: {
+            width: '100%',
+            height: '80%'
+          },
+          width: '100%',
+          height: 400,
+          colors: i_color
+        };
+        if (!ie8_flg) {
+          chart = new google.visualization.PieChart(document.getElementById('pieChartDiv-02'));
+          return chart.draw(data, options);
+        }
+      }
+    };
+    google.setOnLoadCallback(drawChart);
+    if (ie8_flg) {
+      return $('#chartDiv, #chartDiv-02, #pieChartDiv-01, #pieChartDiv-02').each(function(i, obj) {
+        var _imgtag, _num;
+        _num = i + 1;
+        _imgtag = '<img src="./images/img_graph_0' + _num + '.jpg" alt="">';
+        return $(this).append(_imgtag);
+      });
+    }
+  });
+
+}).call(this);

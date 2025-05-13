@@ -1,0 +1,39 @@
+
+#main .event_ttl {
+	font-size: 2rem;
+	margin-bottom: 1em;
+	padding-bottom: .2em;
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+}
+#main .l-sinryou .btn {
+	background: #C9C9CA;
+	margin: .8em 0;
+	font-size: 1.08rem;
+	line-height: 1.8;
+}
+
+#main .l-sinryou .btn a {
+	font-size: 1.33rem;
+	padding: .5em 2em;
+	line-height: 1;
+	min-height: 18px;
+	color: #fff;
+}
+
+#main .event_txt_block {
+	box-sizing: border-box;
+	padding-left: 30px;
+	vertical-align: top;
+}
+
+#main .event_sub_ttl {
+	font-size: 1.3rem;
+	margin-bottom: 1em;
+}
+
+#main .event_pdf {
+	width: 15%;
+	display: inline-block;
+	float: right;
+}

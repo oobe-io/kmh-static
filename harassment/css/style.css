@@ -1,0 +1,13 @@
+.header-menkai{
+    float: left;
+    width: 100%;
+    font-size: 20px !important;
+    font-weight: bold;
+    background:red;
+    color: white;
+    padding: 2px 5px;
+    box-sizing: border-box;
+}
+.Q-up{
+    font-size: 15px !important;
+}

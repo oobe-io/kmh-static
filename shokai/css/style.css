@@ -1,0 +1,232 @@
+@media screen and (min-width: 480px){
+    .arrow-control1{
+        padding-right: 0%;
+        background-image: url(../../images/bg_arrow.jpg) !important;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        background-size: 80% 100% !important;
+        z-index: 10 !important;
+    }
+
+    .arrow-control2{
+        padding-right: 0%;
+        background-image: url(../../images/bg_arrow.jpg);
+        background-position: center !important;
+        background-repeat: no-repeat;
+        background-size: 70% 70% !important;
+        z-index: 10 !important;
+    }
+
+    .arrow-control3{
+        padding-right: 0%;
+        background-image: url(../../images/bg_arrow.jpg) !important;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        background-size:90% 90% !important;
+        z-index: 10 !important;
+    }
+
+    .arrow-control4{
+        padding-right: 0%;
+        background-image: url(../../images/bg_arrow.jpg) !important;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        background-size:0% 0% !important;
+        z-index: 10 !important;
+    }
+
+    .font-control1{
+        text-align:center !important;
+        vertical-align:middle !important;
+    }
+    
+    .text-con1{
+        display: table-cell !important;
+        vertical-align: middle !important;
+    }
+
+    .fs15{
+        font-size: 13px !important;
+        margin-right: 10% !important;
+        vertical-align:middle !important;
+    }
+
+    .fs12{
+        font-size: 12px !important;
+        margin-right: 10% !important;
+        vertical-align:middle !important;
+    }
+
+    .margin-control1{
+        margin-top: 0.3% !important;
+    }
+    .margin-control2{
+        margin-top: 1% !important;
+    }
+
+    .floatH{
+        clear: left;
+        float: left;
+        display: block;
+        width: 15% !important;
+        FONT-WEIGHT: 100;
+        background: #C9C9CA;
+        text-align: center !important;
+        color: #fff;
+        padding: .2em 0;
+        font-size: 1.2em;
+        margin-bottom: 1.5em;
+        line-height: 1.5;
+    }
+
+    .floatH-02{
+        clear: left;
+        float: left;
+        display: block;
+        width: 15% !important;
+        FONT-WEIGHT: 100;
+        background: #C9C9CA;
+        text-align: center !important;
+        color: #fff;
+        padding: .7em 0 !important;
+        font-size: 1.2em;
+        margin-bottom: 1.5em;
+        line-height: 1.5;
+    }
+        
+    .spviwe{
+        display: none !important;
+    }
+        
+    .pc-flex{
+        display: flex !important;
+        justify-content: space-around;
+    }
+
+    .pc-flex2{
+        display: flex !important;
+    }
+
+    .ml20{
+        margin-left:20% !important ;
+    }
+
+    #main .borderBox-02 {
+        box-sizing: border-box;
+        border: 2px solid #C9C9CA;
+        padding: 5px;
+        margin: 0 -5px;
+    }
+
+    .w35p{
+        width: 35% !important;
+    }
+
+    .w60p{
+        width: 60% !important;
+    }
+
+    .left{
+        float: left !important;
+    }
+
+    .al-flex{
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .cf-test{
+        display: table !important;
+        height: 100px !important;
+    }
+
+}
+
+@media screen and (max-width: 481px){
+    .font-control1{
+        text-align:center !important;
+        vertical-align:middle !important;
+    }
+
+    .arrow-control1{
+        padding-right: 0%;
+        background-image: url(../../images/bg_arrow_sp.png);
+        background-position: center !important;
+        background-repeat: no-repeat;
+        background-size: 80% 100% !important;
+        z-index: 10 !important;
+    }
+
+    .arrow-control2{
+        padding-right: 0%;
+        background-image: url(../../images/bg_arrow_sp.png);
+        background-position: center !important;
+        background-repeat: no-repeat;
+        background-size: 70% 100% !important;
+        z-index: 10 !important;
+    }
+    
+    .arrow-control3{
+        padding-right: 0%;
+        background-image: url(../../images/bg_arrow_sp.png);
+        background-position: center !important;
+        background-repeat: no-repeat;
+        background-size: 70% 100% !important;
+        z-index: 10 !important;
+    }
+
+    .margine-control1{
+        margin: 5% 0 !important;
+    }
+
+    .floatH{
+    clear: left;
+    display: block;
+    background: #C9C9CA;
+    text-align: center !important;
+    color: #fff;
+    padding: .2em 0;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+    }
+
+    .fs15{
+        font-size: 13px !important;
+        vertical-align:30% !important;
+    }
+
+    .mt5{
+        margin-top: 5% !important;
+    }
+
+    .pcviwe{
+        display: none !important;
+    }
+
+    .arrow-control4{
+        text-align: center !important;
+    }
+
+    .sp-flex{
+        display: flex !important;
+        justify-content: space-around;
+    }
+}
+
+.fs30{
+    font-size: 30px !important;
+}
+
+.bold{
+    font-weight: bold !important;
+}
+
+.mt50{
+    margin-top: 50% !important;
+}
+
+.j-flex{
+    display: flex !important;
+    justify-content: space-around;
+}

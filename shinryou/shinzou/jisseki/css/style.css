@@ -1,0 +1,11 @@
+
+#main .borderType3 th,
+#main .borderType3 td {
+  border-top: none;
+  border-bottom: none;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #333 !important;
+}
+

@@ -1,0 +1,28 @@
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 480px){
+    .spviwe{
+        display: none;
+    }
+    
+    .column_left {
+        position: relative;
+        float: left;
+        width: 30%;
+    }
+    
+    .column_right {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        width: 65%;
+    }
+}
+

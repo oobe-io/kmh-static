@@ -1,0 +1,14 @@
+@media screen and (min-width: 480px) {
+	.team-brain .profile-01 {
+	  left: auto;
+	  right: 29.3%;
+	  top: 1%;
+	}
+	.team-brain .profile-02 {
+	  left: 63.5%;
+	  top: 33.5%;
+	}
+	.profile-showcase .detail li {
+		white-space: normal;
+	}
+}

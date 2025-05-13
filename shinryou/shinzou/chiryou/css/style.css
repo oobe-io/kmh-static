@@ -1,0 +1,150 @@
+@media screen and (min-width: 480px) {
+    .spview{
+        display: none !important;
+    }
+
+    .l-shiryou-saishin {
+        padding-top: 20px;
+    }
+    .l-shiryou-saishin #mainVisual {
+        position: relative;
+        padding-left: 0;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    .l-shiryou-saishin #mainVisual .text {
+        position: absolute;
+        width: 26.31%;
+        padding-top: 0;
+        margin-left: 5%;
+    }
+    #mainVisual .text img {
+        height: auto;
+    }
+    #mainVisual .text .start {
+        margin-top: 35%;
+        width: 66%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .l-shiryou-saishin #mainVisual .image {
+        position: relative;
+        right: 0;
+        width: 100%;
+    }
+    .contentBox .title span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .contentBox li {
+        padding-left: 1em;
+        text-indent: -1em;
+    }
+
+    .margin-cont{
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+    }
+
+    .btn--daVinci {
+        text-align: center !important;
+        font-weight: bold;
+        font-size: 17px;
+        padding: 7px 15px;
+        width: 20%;
+        background: #efeee7;
+    }
+}
+
+.caption-normal {
+    background: #dcdcdc;
+    padding: 5px;
+    text-align: center !important;
+    font-weight: bold;
+}
+.caption-mics {
+    background: #e39d7b;
+    padding: 5px;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.contentBox--full {
+    width: 100% !important;
+    float: none;
+}
+.profile-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile-list ul:first-child {
+    margin-right: 3em;
+}
+
+.right {
+    text-align: right !important;
+}
+.btn.btn01 a{
+	text-align: center;
+}
+
+@media screen and (max-width: 481px) {
+    .pcview{
+        display: none !important;
+    }
+    
+    #mainVisual .start img {
+        width: 50%;
+    }
+    #mainVisual .image img {
+        margin-top: -50px;
+        height: 80vmin;
+        object-fit: cover;
+        object-position: 60% 50%;
+    }
+	#main .accordion .btn.btn01,
+	.l-sinryou-shinzou .l-waterFlow_content .photo {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+		text-align: center;
+	}
+
+    .btn--daVinci {
+        text-align: center !important;
+        font-weight: bold;
+        font-size: 17px;
+        padding: 7px 15px;
+        background: #efeee7;
+    }
+}
+
+.test{
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+}
+
+a.btn--yellow {
+    color: #000;
+    background-color: #d6d6d6;
+    border-bottom: 5px solid #7c7c7c;
+  }
+  
+a.btn--yellow:hover {
+    margin-top: 3px;
+    color: #000;
+    background: #d6d6d6;
+    border-bottom: 2px solid #7c7c7c;
+  }
+
+  .btn--daVinci-2 {
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px 15px;
+    width: 20%;
+    float: left;
+    margin-right:30px; 
+    background: #efeee7;
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .spviwe{
+        display: none !important;
+    }
+}

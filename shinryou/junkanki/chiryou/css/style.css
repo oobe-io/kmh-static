@@ -1,0 +1,98 @@
+@media screen and (max-width: 481px){
+    .l-waterFlow_content{
+        width:100% !important;
+    }
+
+    .btn-center{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cryoablation-wid{
+        width:70%;
+    }
+
+    .leadlesspacemaker-wid{
+        width: 80%;
+    }
+
+    .viabahn-wid{
+        width: 90%;
+    }
+
+    .btn-center a{
+        text-align: center !important;
+    }
+
+    .TAVI-wid{
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mitraclip-wid{
+        width:85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wid-cont{
+        width:80% !important;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .btn-center{
+        text-align: center !important;
+    }
+
+    .prl3p{
+        padding:  0 3% !important;
+    }
+
+    .TAVI-wid{
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   .btn-cont{
+        width:100%;
+        text-align: center !important;
+    }
+}
+
+.btn--daVinci {
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px 15px;
+    margin:0 auto;
+    width: 70%;
+    background: #efeee7;
+}
+
+.btn--daVinci-2 {
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px 15px;
+    margin-left:0%;
+    width: 20%;
+    background: #efeee7;
+}
+
+a.btn--yellow {
+    color: #000;
+    background-color: #d6d6d6;
+    border-bottom: 5px solid #7c7c7c;
+  }
+  
+a.btn--yellow:hover {
+    margin-top: 3px;
+    color: #000;
+    background: #d6d6d6;
+    border-bottom: 2px solid #7c7c7c;
+  }
+

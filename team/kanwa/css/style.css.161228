@@ -1,0 +1,23 @@
+@media screen and (min-width: 480px) {
+	.team-kanwa .profile-01 {
+		left: 29.3%;
+		top: 5%;
+	}
+	.team-kanwa .profile-02 {
+		left: auto;
+		right: 0;
+		top: 5%;
+	}
+	.team-kanwa .profile-03 {
+		left: 30%;
+		top: auto;
+		bottom: 20.5%;
+	}
+	.team-kanwa .profile-04 {
+		right: 18%;
+		bottom: 20.5%;
+	}
+	.profile-showcase .detail li {
+		white-space: normal;
+	}
+}

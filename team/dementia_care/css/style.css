@@ -1,0 +1,138 @@
+
+.team-header {
+    background: -o-linear-gradient(350deg, #F8C176 0%, #ffc87a 100%);
+    background: linear-gradient(100deg, #F8C176 0%, #ffc87a 100%);
+    padding-bottom: 3.3%;
+}
+.team-header .title img {
+    width: auto !important;
+    height: 4vw;
+}
+.profile-header .list {
+    color: #5b5f66;
+}
+
+.profile-showcase {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 2vw;
+}
+.profile {
+    position: relative !important;
+}
+
+.profile-01 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+}
+.profile-02 {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    margin-top: 15vw;
+}
+.profile-03 {
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
+}
+
+.profile-04 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    margin-top: -10vw;
+}
+.profile-05 {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 2;
+    grid-row: 2;
+}
+.profile-06 {
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    margin-top: -10vw;
+}
+
+.profile-07 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 3;
+    grid-row: 3;
+}
+.profile-08 {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 3;
+    grid-row: 3;
+}
+.profile-09 {
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 3;
+    grid-row: 3;
+}
+
+.portrait {
+    display: block !important;
+}
+
+.team-staff-list {
+    background-image: -o-linear-gradient(350deg, #aab0b5 0%, #cbd0d7 100%);
+    background-image: linear-gradient(100deg, #aab0b5 0%, #cbd0d7 100%);
+}
+
+
+@media screen and (max-width: 781px) {
+
+    .profile-showcase {
+        display: block;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none !important;
+    }
+    
+    .sp-fz10{
+        font-size: 1.3rem;
+    }
+
+    .mb05{
+        margin-bottom: 0.5rem !important;
+    }
+
+    .mar-cont{
+        margin-bottom: 2rem;
+    }
+
+	.padd-cont{
+		padding: 3% 3%;
+	}
+
+	.sp-left{
+		text-align: left !important;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.spviwe{
+        display: none !important;
+    }
+
+	.image{
+		padding-bottom: 2.8571% !important;
+	}
+}

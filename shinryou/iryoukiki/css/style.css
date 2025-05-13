@@ -1,0 +1,44 @@
+@media screen and (min-width: 480px) {
+    .intro {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5em;
+    }
+    .intro__image {
+        width: 55.9%;
+    }
+    .intro__text {
+        width: 39.2%;
+    }
+
+    .sec02 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1em;
+    }
+    .sec02__text {
+        width: 35.77%;
+        margin-bottom: 0;
+    }
+    .sec02__image {
+        width: 56.69%;
+    }
+}
+.block {
+    border-top: 10px solid #efeee8;
+    padding-top: 3em;
+    margin-bottom: 5em;
+}
+#main .sectionTitle {
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    margin-bottom: .75em;
+    padding-bottom: .2em;
+}
+.intro {
+    margin-bottom: 3em;
+}
+.sec02__text {
+    margin-bottom: 2em;
+}

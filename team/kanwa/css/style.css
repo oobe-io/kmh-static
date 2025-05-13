@@ -1,0 +1,70 @@
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none !important;
+    }
+    
+    .sp-fz10{
+        font-size: 1.3rem;
+    }
+
+    .mb05{
+        margin-bottom: 0.5rem !important;
+    }
+
+    .mar-cont{
+        margin-bottom: 2rem;
+    }
+
+	.padd-cont{
+		padding: 3% 3%;
+	}
+
+	.sp-left{
+		text-align: left !important;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.team-kanwa .profile-01 {
+		left: 29.3%;
+		top: 5%;
+	}
+	.team-kanwa .profile-02 {
+		left: 77%;
+		top: 5%;
+	}
+	.team-kanwa .profile-03 {
+		left: 38%;
+		top: 78%;
+	}
+	.team-kanwa .profile-04 {
+		left: 13%;
+		bottom: 0.5%;
+	}
+	.team-kanwa .profile-05 {
+		left: 65%;
+		bottom: 0.5%;
+	}
+
+	.team-kanwa .profile-06 {
+		left: 29.3%;
+		top: 33%;
+	}
+
+	.team-kanwa .profile-07 {
+		left: 60%;
+		top: 33%;
+	}
+
+	.profile-showcase .detail li {
+		white-space: normal;
+	}
+
+	.spviwe{
+        display: none !important;
+    }
+
+	.image{
+		padding-bottom: 2.8571% !important;
+	}
+}

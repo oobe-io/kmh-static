@@ -1,0 +1,77 @@
+@media screen and (min-width: 480px){
+    .spviwe{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none;
+    }
+
+    .iconArea li{
+        -webkit-box-align: center !important;
+        width:32% !important;
+    }
+    
+    .mrl{
+        margin-left: 1%;
+        margin-left: 1%;
+    }
+
+    .fz10{
+        font-size: 10px;
+    }
+
+    .mb05{
+        margin-bottom: 0.5rem !important;
+    }
+
+    .mb2{
+        margin-bottom: 2rem !important;
+    }
+
+    .mb5{
+        margin-bottom: 5px !important;
+    }
+
+    .map-size{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .test{
+        display: inline-block !important;
+        float: left !important;
+    }
+
+    .floor1 li{
+        -webkit-box-align: center !important;
+        width:85% !important;
+    }
+    .sp-rectNumList{
+        background: #000;
+        border-radius: 0;
+        padding: .3em .2em;
+    }
+    .column_left {
+        position: relative;
+        float: left;
+        width: 46%;
+    }
+    .column_right {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        width: 46%;
+    }
+
+    .floormap-hed{
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+        font-weight: bold !important;
+        font-size: 15px !important;
+    }
+}

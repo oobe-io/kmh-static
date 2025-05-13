@@ -1,0 +1,74 @@
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none !important;
+    }
+    
+    .sp-fz10{
+        font-size: 1.3rem;
+    }
+
+    .mb05{
+        margin-bottom: 0.5rem !important;
+    }
+
+    .mar-cont{
+        margin-bottom: 2rem;
+    }
+
+	.padd-cont{
+		padding: 3% 3%;
+	}
+
+	.sp-left{
+		text-align: left !important;
+	}
+
+	.pSp{
+		padding:5% 2.5% !important ;
+	}
+
+	.sp-fz9{
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.team-brain .profile-01 {
+	  left: auto;
+	  right: 32.3%;
+	  top: 7%;
+	}
+	.team-brain .profile-03 {
+	  left: auto;
+		right: 15%;
+	  top: 45%;
+	}
+	.team-brain .profile-00 {
+	  top: 32.8%;
+	}
+	.team-brain .profile-04 {
+	  top: 81.7%;
+		left: 26.5%;
+	}
+	.team-brain .profile-05 {
+	  top: 90%;
+	}
+	.profile-showcase .detail li {
+		white-space: normal;
+	}
+
+	.spviwe{
+        display: none !important;
+    }
+
+	.image{
+		padding-bottom: 2.8571% !important;
+	}
+
+	.team-enge .profile-02{
+		left:43% !important;
+		top:90% !important;
+	}
+}
+
+

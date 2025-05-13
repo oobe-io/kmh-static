@@ -1,0 +1,42 @@
+@media screen and (max-width: 481px){
+	.pcviwe{
+		display: none !important;	
+	}
+
+	.sp-fz10{
+		font-size: 1.3rem;
+	}
+
+	.mb05{
+		margin-bottom: 0.5rem !important;
+	}
+
+	.mar-cont{
+		margin-bottom: 2rem;
+	}
+
+	.padd-cont{
+		padding: 3% 3%;
+	}
+
+	.sp-left{
+		text-align: left !important;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.team-jyokusou .profile-02 {
+	  left: 37.5%;
+	  top: auto;
+	  bottom: 70%;
+	}
+
+	.spviwe{
+        display: none !important;
+    }
+
+	.image{
+		padding-bottom: 2.8571% !important;
+	}
+}
+

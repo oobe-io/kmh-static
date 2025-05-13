@@ -1,0 +1,34 @@
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none !important;
+    }
+    
+    .mb2{
+        margin-bottom: 2rem !important;
+    }
+    
+    .mb05{
+        margin-bottom: 0.5rem;
+    }
+
+    .fz13{
+        font-size: 1.7rem !important;
+    }
+
+    .prl-cont{
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .center{
+        text-align: none;
+    }
+
+
+}
+
+@media screen and (min-width: 480px){
+    .spviwe{
+        display: none !important;
+    }
+}

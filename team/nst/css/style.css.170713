@@ -1,0 +1,28 @@
+@media screen and (min-width: 480px) {
+  .team-heart .profile-01 {
+    left: 29.3%;
+    top: 2%;
+  }
+  .team-heart .profile-02 {
+    left: 46.2%;
+    top: 15.5%;
+  }
+  .team-heart .profile-03 {
+    left: 32.6%;
+    top: 42%;
+  }
+  .team-heart .profile-04 {
+    left: 50%;
+    top: 50%;
+  }
+  .team-heart .profile-05 {
+    left: 30%;
+    top: auto;
+    bottom: 22.5%;
+  }
+  .team-heart .profile-06 {
+    left: 56%;
+    top: auto;
+    bottom: 12.5%;
+  }
+}

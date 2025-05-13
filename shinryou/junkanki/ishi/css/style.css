@@ -1,0 +1,12 @@
+@media screen and (max-width: 481px){
+    .test .nameBlock{
+        padding-bottom:1.5rem !important ;
+    }
+
+
+}
+
+@media screen and (min-width: 480px){
+
+
+}

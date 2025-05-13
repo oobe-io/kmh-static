@@ -1,0 +1,10 @@
+@media screen and (max-width: 481px){
+    
+}
+
+@media screen and (min-width: 480px){
+    .wid-cont{
+        width:70% !important;
+        table-layout: fixed;
+    }
+}

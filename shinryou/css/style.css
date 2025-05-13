@@ -1,0 +1,913 @@
+#mainVisual--content {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border: 1px solid #464242;
+  box-sizing: border-box;
+}
+#mainVisual--content .slideText {
+  position: absolute;
+  padding-top: 6.9503546%;
+  padding-left: 8.9619119%;
+  width: 100%;
+  box-sizing: border-box;
+}
+#mainVisual--content .slideTextInner {
+  width: 25.0933532%;
+}
+#mainVisual--content .slideText p {
+  text-align: center !important;
+}
+#mainVisual--content .slideTitle {
+  width: 100%;
+  margin-bottom: 29.7619048%;
+}
+
+#mainVisual--content .slide01 .slideText {
+  padding-top: 3.950355em;
+}
+#mainVisual--content .slide01 .slideTitle {
+  width: 25.0933532%;
+  margin-bottom: 9.7619048%;
+}
+#mainVisual--content .slide01 .mainImage {
+  width: 55%;
+}
+#mainVisual--content .slide01 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide02 .slideText {
+  padding-left: 6.95%;
+}
+#mainVisual--content .slide02 .slideTitle {
+  width: 38.0933532%;
+  margin-bottom: 13.7619048%;
+}
+#mainVisual--content .slide02 .slideTextInner {
+  width: 41%;
+}
+#mainVisual--content .slide02 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide03 .slideText {
+  padding-left: 6.95%;
+}
+#mainVisual--content .slide03 .slideTitle {
+  width: 57.0933532%;
+  margin-bottom: 14.4619048%;
+}
+#mainVisual--content .slide03 .slideTextInner {
+  width: 41%;
+}
+#mainVisual--content .slide03 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide04 .slideText {
+  padding-left: 6.95%;
+}
+#mainVisual--content .slide04 .slideTitle {
+  width: 44.0933532%;
+  margin-bottom: 16.2619048%;
+}
+#mainVisual--content .slide04 .slideTextInner {
+  width: 41%;
+}
+#mainVisual--content .slide04 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide05 .slideText {
+  padding-left: 6.95%;
+}
+#mainVisual--content .slide05 .slideTitle {
+  width: 30.0933535%;
+  margin-bottom: 13.7619048%;
+}
+#mainVisual--content .slide05 .slideTextInner {
+  width: 41%;
+}
+#mainVisual--content .slide05 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide05 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide06 .slideText {
+  padding-left: 6.95%;
+}
+#mainVisual--content .slide06 .slideTitle {
+  width: 30.0933535%;
+  margin-bottom: 13.7619048%;
+}
+#mainVisual--content .slide06 .slideTextInner {
+  width: 41%;
+}
+#mainVisual--content .slide06 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide06 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide07 .slideText img {
+  width: 100%;
+  height: auto;
+}
+#mainVisual--content .slide07 .slideText {
+  padding-left: 6.95%;
+}
+#mainVisual--content .slide07 .slideTitle {
+  width: 40.15%;
+  margin-bottom: 14.619048%;
+}
+#mainVisual--content .slide07 .slideTextInner {
+  width: 28%;
+  padding-left: 6.5%;
+}
+#mainVisual--content .slide07 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide07 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide08 .slideText {
+  padding-top: 3.95%;
+}
+#mainVisual--content .slide08 .slideTitle {
+  width: 28.2%;
+}
+#mainVisual--content .slide08 .slideTitle img {
+  height: auto;
+}
+#mainVisual--content .slide08 .slideTextInner {
+  width: 28%;
+  padding-left: 6.5%;
+}
+#mainVisual--content .slide08 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide09 .slideText img {
+  width: 100%;
+  height: auto;
+}
+#mainVisual--content .slide09 .slideText {
+  padding-left: 6.95%;
+}
+#mainVisual--content .slide09 .slideTitle {
+  width: 50.15%;
+  margin-bottom: 9%;
+}
+#mainVisual--content .slide09 .slideTextInner {
+  width: 28%;
+  padding-left: 6.5%;
+}
+#mainVisual--content .slide09 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide09 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide10 .slideText {
+  padding-left: 0;
+}
+#mainVisual--content .slide10 .slideTitle {
+  margin-left: 8.45%;
+  width: 53.469754647%;
+  margin-bottom: 13.7619048%;
+}
+#mainVisual--content .slide10 .slideTextInner {
+  margin-left: 2.8%;
+  width: 41%;
+}
+#mainVisual--content .slide10 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide11 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide11 .slideTitle {
+  width: 20%;
+}
+#mainVisual--content .slide11 .slideTitle img {
+  height: auto;
+}
+#mainVisual--content .slide11 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide12 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide12 .slideTitle {
+  width: 40%;
+  margin-bottom: 7%;
+}
+#mainVisual--content .slide12 .slideTextInner {
+  width: 28%;
+  padding-left: 6.5%;
+}
+#mainVisual--content .slide12 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide12 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide13 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide13 .slideTitle {
+  width: 45%;
+  margin-bottom: 10%;
+}
+#mainVisual--content .slide13 .slideTextInner {
+  width: 28%;
+  padding-left: 4.5%;
+}
+#mainVisual--content .slide13 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide13 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide14 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide14 .slideTitle {
+  width: 35%;
+  margin-bottom: 10%;
+}
+#mainVisual--content .slide14 .slideTextInner {
+  width: 28%;
+  padding-left: 2.5%;
+}
+#mainVisual--content .slide14 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide14 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide15 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide15 .slideTitle {
+  width: 48%;
+  margin-bottom: 10%;
+}
+#mainVisual--content .slide15 .slideTextInner {
+  width: 28%;
+  padding-left: 7.5%;
+}
+#mainVisual--content .slide15 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide15 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide16 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide16 .slideTitle {
+  width: 48%;
+  margin-bottom: 10%;
+}
+#mainVisual--content .slide16 .slideTextInner {
+  width: 47%;
+  padding-left: 0;
+}
+#mainVisual--content .slide16 .slideDataTitle {
+  font-size: 1.5vw;
+}
+#mainVisual--content .slide16 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide16 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide17 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide17 .slideTitle {
+  width: 48%;
+  margin-bottom: 10%;
+}
+#mainVisual--content .slide17 .slideTextInner {
+  width: 28%;
+  padding-left: 7.5%;
+}
+#mainVisual--content .slide17 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide17 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide18 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide18 .slideTitle {
+  width: 48%;
+  margin-bottom: 3%;
+}
+#mainVisual--content .slide18 .slideTextInner {
+  width: 30%;
+  padding-left: 7.5%;
+  padding-top: 10%;
+}
+#mainVisual--content .slide18 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide18 .mainImage {
+  width: 100%;
+}
+@media screen and (min-width: 1600px) {
+  #mainVisual--content .slide16 .slideDataTitle {
+    font-size: 1.8rem;
+  }
+}
+
+#mainVisual--content .slideDataTitle {
+  line-height: 1;
+  margin-bottom: .5em;
+  font-size: 1.8rem;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+#mainVisual--content .slideData {
+  line-height: 1;
+  font-size: 1.8rem;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+#mainVisual--content .slideData span {
+  font-size: 7.268001354rem;
+  font-family: 'Century Gothic';
+  font-weight: normal;
+  letter-spacing: -.01em;
+}
+#mainVisual--content .slideDataDate {
+  font-size: 1rem;
+  line-height: 1;
+  margin-bottom: 1.5em;
+}
+
+#mainVisual--content .mainImage {
+  width: 100%;
+  float: right;
+}
+
+
+/* slide */
+
+.flex-direction-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-prev {
+  position: absolute;
+  top: 46%;
+  left: 20px;
+  z-index: 10;
+  background: url(../images/ico_slide_arrow_prev.png) no-repeat;
+  background-size: 100% 100%;
+  width: 3%;
+  height: 11.5%;
+  overflow: hidden;
+  text-indent: 100%;
+}
+.flex-next {
+  position: absolute;
+  top: 46%;
+  right: 20px;
+  z-index: 10;
+  background: url(../images/ico_slide_arrow_next.png) no-repeat;
+  background-size: 100% 100%;
+  width: 3%;
+  height: 11.5%;
+  overflow: hidden;
+  text-indent: 100%;
+}
+
+.flex-control-nav {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+}
+.flex-control-nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+.flex-control-nav li a {
+  background: #9f9f9f;
+  color: #9f9f9f;
+  border-radius: 100%;
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+}
+.flex-control-nav li a.flex-active {
+  background: #333;
+  color: #333;
+}
+
+
+@media screen and (max-width: 780px) {
+  #mainVisual--content .slide01 .slideText {
+    padding-top: 0;
+  }
+  #mainVisual--content .slideTitle {
+    margin-bottom: 20px !important;
+  }
+  #mainVisual--content .slideTextInner {
+    width: 100%;
+    white-space: nowrap;
+  }
+  #mainVisual--content .slideText p {
+    text-align: left !important;
+  }
+  #mainVisual--content .slideDataTitle {
+    font-size: 3vmin;
+  }
+  #mainVisual--content .slideData {
+    font-size: 4vmin;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #mainVisual--content .slideData span {
+    font-size: 5vmin;
+  }
+  #mainVisual--content .slideDataDate {
+    display:block;
+  }
+  .localMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .box02 {
+    width: 49% !important;
+    margin-bottom: 20px;
+  }
+  .piece a {
+    margin-bottom: 2px !important;
+  }
+  #mainVisual--content {
+    padding-bottom: 20px;
+  }
+}
+
+<!-- 2020.10.29に追加　-->
+
+#mainVisual--content .slide19 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide19 .slideTitle {
+  width: 48%;
+  margin-bottom: 3%;
+}
+#mainVisual--content .slide19 .slideTextInner {
+  width: 30%;
+  padding-left: 7.5%;
+  padding-top: 10%;
+}
+#mainVisual--content .slide19 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide19 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide19 .slideDataTitle{
+  font-size: 45px;
+}
+
+<!-- 2020.12.14に追加　-->
+
+#mainVisual--content .slide20 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide20 .slideTitle {
+  width: 48%;
+  margin-bottom: 3%;
+}
+#mainVisual--content .slide20 .slideTextInner {
+  width: 30%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#mainVisual--content .slide20 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide20 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide20 .slideDataTitle{
+  font-size: 20px;
+}
+
+<!-- 2021.1.7に追加　-->
+
+#mainVisual--content .slide21 .slideText {
+  padding-top: 6.36%;
+}
+#mainVisual--content .slide21 .slideTitle {
+  width: 48%;
+  margin-bottom: 1%;
+}
+#mainVisual--content .slide21 .slideTextInner {
+  width: 30%;
+  padding-left: 40px;
+  padding-top: 10px;
+ 
+}
+#mainVisual--content .slide21 .slideData{
+  margin-left: 40px;
+}
+
+#mainVisual--content .slide21 .slideData span {
+  font-size: 6vw;
+  text-align: center !important;
+}
+
+#mainVisual--content .slide21 .slideDataDate {
+  line-height: 1.5;
+}
+#mainVisual--content .slide21 .mainImage {
+  width: 100%;
+}
+
+#mainVisual--content .slide21 .slideDataTitle{
+  margin-left: 80px !important;
+  margin-top: -30px;
+}
+
+
+<<　ASDオクルーダー レイアウト調整　>>
+@media screen and (max-width: 480px){
+  #mainVisual--content .slide22 .slideText {
+    padding-top: 6.36%;
+  }
+  #mainVisual--content .slide22 .slideTitle {
+    width: 50% !important;
+    margin-top: 2%;
+  }
+  #mainVisual--content .slide22 .slideTextInner {
+    width: 38%;
+  }
+  #mainVisual--content .slide22 .slideDataDate {
+    font-size: 10px;
+    line-height: 1.5;
+    margin-left: 38% !important;
+  }
+  #mainVisual--content .slide22 .mainImage {
+    width: 100%;
+  }
+  #mainVisual--content .slide22 .slideDataTitle{
+    font-size: 10px;
+    margin-left: 50% !important;
+  }
+  #mainVisual--content .slide22 .slideData {
+    margin-left: 50% !important;
+    font-size: 15px;
+  }
+  #mainVisual--content .slide22 .slideData span{
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 781px){
+  #mainVisual--content .slide22 .slideText {
+    padding-top: 6.36%;
+  }
+  #mainVisual--content .slide22 .slideTitle {
+    width: 50% !important;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    margin-top: 2%;
+  }
+  #mainVisual--content .slide22 .slideTextInner {
+    width: 38%;
+    padding-top: 3%;
+  }
+  #mainVisual--content .slide22 .slideDataDate {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide22 .mainImage {
+    width: 100%;
+  }
+  #mainVisual--content .slide22 .slideDataTitle{
+    font-size: 2vw;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide22 .slideData {
+    margin-left: 30% !important;
+    font-size: 2vw;
+  }
+  #mainVisual--content .slide22 .slideData span { 
+    font-size: 7vw;
+  }
+}
+#mainVisual--content .slide22 .mainImage {
+  width: 100%;
+}
+
+
+<<　VATS レイアウト調整　>>
+  #mainVisual--content .slide23 .slideText {
+    padding-top: 6.36%;
+  }
+  #mainVisual--content .slide23 .slideTitle {
+    width: 50% !important;
+    margin-bottom: 3%;
+    margin-left: -2%;
+    margin-top: 2%;
+  }
+  #mainVisual--content .slide23 .slideTextInner {
+    width: 38%;
+    padding-top: 3%;
+  }
+  #mainVisual--content .slide23 .slideDataDate {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide23 .mainImage {
+    width: 100%;
+  }
+  #mainVisual--content .slide23 .slideDataTitle{
+    font-size: 2vw;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide23 .slideData {
+    margin-left: 30% !important;
+    font-size: 2vw;
+  }
+    #mainVisual--content .slide23 .slideData span{
+    font-size: 6vw;
+  }
+
+  @media screen and (max-width: 480px){
+    #mainVisual--content .slide23 .slideDataTitle{
+      font-size: 2vw;
+      margin-left: 43% !important;
+    }
+    #mainVisual--content .slide23 .slideData{
+      margin-left: 45% !important;
+    }
+    #mainVisual--content .slide23 .slideTitle{
+      margin-bottom: 2% !important;
+    }
+  }
+
+  <<　spyglassds レイアウト調整　>>
+  #mainVisual--content .slide24 .slideText {
+    padding-top: 6.36%;
+  }
+  #mainVisual--content .slide24 .slideTitle {
+    width: 50% !important;
+    margin-bottom: 3%;
+    margin-left: -2%;
+    margin-top: 2%;
+  }
+  #mainVisual--content .slide24 .slideTextInner {
+    width: 38%;
+    padding-top: 3%;
+  }
+  #mainVisual--content .slide24 .slideDataDate {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide24 .mainImage {
+    width: 100%;
+  }
+  #mainVisual--content .slide24 .slideDataTitle{
+    font-size: 2vw;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide24 .slideData {
+    margin-left: 30% !important;
+    font-size: 2vw;
+  }
+    #mainVisual--content .slide24 .slideData span{
+    font-size: 6vw;
+  }
+
+  @media screen and (max-width: 480px){
+    #mainVisual--content .slide24 .slideDataTitle{
+      font-size: 2vw;
+      margin-left: 43% !important;
+    }
+    #mainVisual--content .slide24 .slideData{
+      margin-left: 45% !important;
+    }
+    #mainVisual--content .slide23 .slideTitle{
+      margin-bottom: 2% !important;
+    }
+  }
+
+  <<　ERCP レイアウト調整　>>
+  #mainVisual--content .slide25 .slideText {
+    padding-top: 6.36%;
+  }
+  #mainVisual--content .slide25 .slideTitle {
+    width: 50% !important;
+    margin-bottom: 3%;
+    margin-left: -2%;
+    margin-top: 2%;
+  }
+  #mainVisual--content .slide25 .slideTextInner {
+    width: 38%;
+    padding-top: 3%;
+  }
+  #mainVisual--content .slide25 .slideDataDate {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide25 .mainImage {
+    width: 100%;
+  }
+  #mainVisual--content .slide25 .slideDataTitle{
+    font-size: 2vw;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide25 .slideData {
+    margin-left: 30% !important;
+    font-size: 2vw;
+  }
+    #mainVisual--content .slide25 .slideData span{
+    font-size: 6vw;
+  }
+
+  @media screen and (max-width: 480px){
+    #mainVisual--content .slide25 .slideDataTitle{
+      font-size: 2vw;
+      margin-left: 43% !important;
+    }
+    #mainVisual--content .slide25 .slideData{
+      margin-left: 45% !important;
+    }
+    #mainVisual--content .slide25 .slideTitle{
+      margin-bottom: 2% !important;
+    }
+  }
+
+  <<　外視鏡 レイアウト調整　>>
+  #mainVisual--content .slide26 .slideText {
+    padding-top: 6.36%;
+  }
+  #mainVisual--content .slide26 .slideTitle {
+    width: 50% !important;
+    margin-bottom: 3%;
+    margin-left: -2%;
+    margin-top: 2%;
+  }
+  #mainVisual--content .slide26 .slideTextInner {
+    width: 38%;
+    padding-top: 3%;
+  }
+  #mainVisual--content .slide26 .slideDataDate {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide26 .mainImage {
+    width: 100%;
+  }
+  #mainVisual--content .slide26 .slideDataTitle{
+    font-size: 2vw;
+    margin-left: 30% !important;
+  }
+  #mainVisual--content .slide26 .slideData {
+    margin-left: 30% !important;
+    font-size: 2vw;
+  }
+    #mainVisual--content .slide26 .slideData span{
+    font-size: 6vw;
+  }
+
+  @media screen and (max-width: 480px){
+    #mainVisual--content .slide26 .slideDataTitle{
+      font-size: 2vw;
+      margin-left: 43% !important;
+    }
+    #mainVisual--content .slide26 .slideData{
+      margin-left: 45% !important;
+    }
+    #mainVisual--content .slide26 .slideTitle{
+      margin-bottom: 2% !important;
+    }
+  }
+    <<　OPUTUNE レイアウト調整　>>
+    #mainVisual--content .slide27 .slideText {
+      padding-top: 6.36%;
+    }
+    #mainVisual--content .slide27 .slideTitle {
+      width: 50% !important;
+      margin-bottom: 3%;
+      margin-left: -2%;
+      margin-top: 2%;
+    }
+    #mainVisual--content .slide27 .slideTextInner {
+      width: 38%;
+      padding-top: 3%;
+    }
+    #mainVisual--content .slide27 .slideDataDate {
+      font-size: 1.5vw;
+      line-height: 1.5;
+      margin-left: 30% !important;
+    }
+    #mainVisual--content .slide27 .mainImage {
+      width: 100%;
+    }
+    #mainVisual--content .slide27 .slideDataTitle{
+      font-size: 2vw;
+      margin-left: 30% !important;
+    }
+    #mainVisual--content .slide27 .slideData {
+      margin-left: 30% !important;
+      font-size: 2vw;
+    }
+      #mainVisual--content .slide27 .slideData span{
+      font-size: 6vw;
+    }
+  
+    @media screen and (max-width: 480px){
+      #mainVisual--content .slide27 .slideDataTitle{
+        font-size: 2vw;
+        margin-left: 43% !important;
+      }
+      #mainVisual--content .slide27 .slideData{
+        margin-left: 45% !important;
+      }
+      #mainVisual--content .slide27 .slideTitle{
+        margin-bottom: 2% !important;
+      }
+
+      <<　WEB レイアウト調整　>>
+    #mainVisual--content .slide28 .slideText {
+      padding-top: 6.36%;
+    }
+    #mainVisual--content .slide28 .slideTitle {
+      width: 50% !important;
+      margin-bottom: 3%;
+      margin-left: -2%;
+      margin-top: 2%;
+    }
+    #mainVisual--content .slide28 .slideTextInner {
+      width: 38%;
+      padding-top: 3%;
+    }
+    #mainVisual--content .slide28 .slideDataDate {
+      font-size: 1.5vw;
+      line-height: 1.5;
+      margin-left: 30% !important;
+    }
+    #mainVisual--content .slide28 .mainImage {
+      width: 100%;
+    }
+    #mainVisual--content .slide28 .slideDataTitle{
+      font-size: 2vw;
+      margin-left: 30% !important;
+    }
+    #mainVisual--content .slide28 .slideData {
+      margin-left: 30% !important;
+      font-size: 2vw;
+    }
+      #mainVisual--content .slide28 .slideData span{
+      font-size: 6vw;
+    }
+  
+    @media screen and (max-width: 480px){
+      #mainVisual--content .slide28 .slideDataTitle{
+        font-size: 2vw;
+        margin-left: 43% !important;
+      }
+      #mainVisual--content .slide28 .slideData{
+        margin-left: 45% !important;
+      }
+      #mainVisual--content .slide28 .slideTitle{
+        margin-bottom: 2% !important;
+      }
+  }

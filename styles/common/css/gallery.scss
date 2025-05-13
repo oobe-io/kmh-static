@@ -1,0 +1,359 @@
+@import "compass/reset";
+
+html {
+	line-height: 1.7;
+	font-size: 75%; // 12px
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	color: #221814;
+}
+
+// js
+
+.locked {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+// img
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+#map {
+	img {
+		max-width: none;
+	}
+}
+
+#mapArea {
+	height: 100%;
+	iframe {
+		height: 71%;
+	}
+}
+
+// font
+body {
+	height: 100%;
+	background: #c9c9ca;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: #888889;
+}
+
+.cf:after,
+.cf:before {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1;
+}
+
+footer {
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+#side {
+	float: left;
+	width: 30.43%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 2.518%;
+	color: #888889;
+	background: #fff;
+	h1 {
+		margin-bottom: 6em;
+	}
+}
+
+#menu {
+	li {
+		margin-bottom: 1.5em;
+	}
+	a {
+		position: relative;
+		color: #888889;
+		z-index: 2;
+		display: inline;
+	}
+	.hover {
+		position: relative;
+		.bg {
+			position: absolute;
+			content: '';
+			background: #eeefef;
+			opacity: 0;
+			width: 0%;
+			height: 100%;
+			z-index: 1;
+			top: 0;
+			left: 0;
+		}
+	}
+	.current {
+		background: #eeefef;
+	}
+	.thumb {
+		display: inline-block;
+		width: 15.49%;
+		border: 5px solid #eeefef;
+		margin-right: 6%;
+		img {
+		}
+	}
+	.text {
+		width: 73%;
+		display: inline-block;
+		vertical-align: middle;
+		p {
+			width: 100%;
+			display: inline-block;
+			vertical-align: middle;
+			a {
+				width: 100%;
+				display: inline-block;
+			}
+		}
+		.outerLink {
+			width: auto !important;
+			&:hover {
+				background: #C4C4C4;
+				// color: #fff;
+			}
+		}
+	}
+}
+
+
+#main {
+	float: left;
+	width: 69.57%;
+	height: 100%;
+	box-sizing: border-box;
+	// background: #c9c9ca;
+	.title {
+		position: relative;
+		padding: .5em 2em;
+		color: #fff;
+		height: 4em;
+		p {
+			position: absolute;
+			top: .5em;
+			left: 2em;
+			display: none;
+		}
+	}
+	.loading {
+		background: url(/gallery/images/img_loading.gif) 50% 50% no-repeat;
+	}
+}
+
+#mainVisual {
+	img {
+		width: 100%;
+		height: auto;
+		max-width: none;
+	}
+}
+
+
+#showcase {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height: 200px;
+	ul {
+		float: left;
+	}
+	li {
+		float: left;
+		img {
+			width: 100%;
+		}
+		&:hover {
+			background: #fff;
+		}
+		a {
+			transition: opacity .2s;
+			&:hover {
+				opacity: .5;
+			}
+		}
+	}
+}
+
+#showcaseWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#footer {
+	background: #fff;
+}
+
+
+@media screen and (max-width: 480px){
+// -------------------------------------
+// sp
+
+// footer
+//
+
+#side, #main {
+	float: none;
+	width: auto;
+}
+
+
+#showcase {
+	height: 110px;
+}
+
+#footer {
+	width: 100%;
+	border-top: 1px solid #BAB8B9;
+	font-size: .83em;
+	.inner {
+		width: 94%; // 990px
+		max-width: 1600px;
+		min-width: 960px;
+		margin: 0 auto;
+		padding: 1em 3% 0;
+	}
+}
+#footerMenu {
+	ul {
+		overflow: hidden;
+		border-left: 1px solid #9C9A9A;
+	}
+	li {
+		a {
+			padding: 0 10px;
+			border-right: 1px solid #9C9A9A;
+		}
+	}
+}
+
+.spHide {
+	display: none !important;
+}
+
+
+// sp
+// -------------------------------------
+}
+
+
+@media screen and (min-width: 480px){
+// -------------------------------------
+// pc
+
+#navArchives {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	overflow: hidden;
+	cursor: pointer;
+	ul {
+		display: none;
+		li {
+			padding-left: 1.5em;
+		}
+	}
+	a {
+		display: inline-block;
+		&:hover {
+			background: #C4C4C4;
+		}
+	}
+	&.is-open {
+		.navArchives_title {
+			&:before {
+				content: url(/gallery/images/ico_link_arrow_open.png);
+			}
+		}
+	}
+	+ #satsuei {
+		padding-top: 0;
+	}
+}
+
+.navArchives_title {
+	position: relative;
+	padding-left: 1.5em;
+	&:before {
+		position: absolute;
+	  top: 50%;
+	  left: 0;
+	  margin-top: -9px;
+	  content: url(/gallery/images/ico_link_arrow.png);
+	}
+}
+
+#satsuei {
+	padding-top: 20%;
+	.kakkoIndent {
+		text-indent: -.5em;
+	}
+	a {
+		display: inline-block;
+		&:hover {
+			background: #C4C4C4;
+		}
+	}
+}
+
+// footer
+//
+#footer {
+	width: 100%;
+	border-top: 1px solid #BAB8B9;
+	font-size: .83em;
+	.inner {
+		width: 94%; // 990px
+		max-width: 1600px;
+		min-width: 960px;
+		margin: 0 auto;
+		padding: 1em 3% 0;
+	}
+}
+#footerMenu {
+	float: left;
+	ul {
+		overflow: hidden;
+		border-left: 1px solid #9C9A9A;
+	}
+	li {
+		float: left;
+		a {
+			padding: 0 10px;
+			border-right: 1px solid #9C9A9A;
+		}
+	}
+}
+#copyright {
+	float: right;
+}
+
+
+
+// pc
+// -------------------------------------
+}
+

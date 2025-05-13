@@ -1,0 +1,60 @@
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none !important;
+    }
+    
+    .sp-fz10{
+        font-size: 1.3rem;
+    }
+
+    .mb05{
+        margin-bottom: 0.5rem !important;
+    }
+
+    .mar-cont{
+        margin-bottom: 2rem;
+    }
+
+    .padd-cont{
+        padding: 3% 3% !important;
+    }
+
+    .sp-left{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .spviwe{
+        display: none !important;
+    }
+
+    .team-heart .profile-01 {
+        left: 27%;
+        top: 1.5%;
+        text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px 1px 0 white, -1px -1px 0 white;
+    }
+
+    .team-heart .profile-02 {
+        left: 55%;
+        top: 17%;
+        text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px 1px 0 white, -1px -1px 0 white;
+    }
+
+    .team-heart .profile-03 {
+        left: 64%;
+        top: 45%;
+        text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px 1px 0 white, -1px -1px 0 white;
+    }
+
+    .team-heart .profile-06 {
+        left: 25%;
+        top: 93%;
+        text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px 1px 0 white, -1px -1px 0 white;
+    }
+
+    .team-heart .profile-07 {
+        left: 65%;
+        top: 93%;
+        text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px 1px 0 white, -1px -1px 0 white;
+    }
