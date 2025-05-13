@@ -1,0 +1,175 @@
+
+.l-lecture-lists li {
+	margin-bottom: 2.7em;
+	border-top: 1px solid #221814;
+	border-bottom: 1px solid #221814;
+	padding: 1em 0;
+}
+.l-lecture-lists li dl {
+	display: table;
+	width: 100%;
+}
+
+.l-lecture-lists li dt {
+	font-size: 1.5em;
+	margin-bottom: .5em;
+}
+.l-lecture-lists li dt br {
+	display: none;
+}
+.l-lecture-lists li dt .data {
+	display: block;
+	font-size: .95em;
+	margin-bottom: .5em;
+}
+.l-lecture-lists li dt .start_date,
+.l-lecture-lists li dt .deadline_date {
+	display: block;
+	font-size: .6em;
+}
+
+#main .kakkoIndent {
+	margin-left: 0;
+}
+.l-lecture-lists li dd p {
+	line-height: 1.5 !important;
+}
+.l-lecture-lists li dd h2 {
+	line-height: 1.2 !important;
+	margin-bottom: .2em;
+	font-weight: bold;
+}
+.l-lecture-lists li dd h2.kakkoIndent {
+	text-indent: -1.1em;
+	padding-left: 1.1em;
+}
+
+.l-lecture-lists--seminar li dd .headline {
+	font-size: 1.25em;
+	font-weight: bold;
+	display: inline-block;
+}
+.l-lecture-lists--seminar li dd .label {
+	font-size: .875em;
+	margin-left: -.6em;
+	margin-right: -.8em;
+	display: inline-block;
+}
+.l-lecture-lists li dd.file {
+	text-align: center;
+	padding-top: 1em;
+}
+/*年度タブの幅調整*/
+.nendo-size{
+	width: 9% !important;
+}
+
+
+
+@media screen and (min-width: 480px) {
+	.l-lecture-lists li {
+		margin-bottom: 2.7em;
+		border-top: none;
+		border-bottom: none;
+		padding: 0;
+	}
+	.l-lecture-lists li dt {
+		display: table-cell;
+		border-top: 1px solid #221814;
+		border-bottom: 1px solid #221814;
+		width: 14.68%;
+		line-height: 1.22;
+		vertical-align: middle;
+		margin-bottom: 0;
+	}
+	.l-lecture-lists li dt br {
+		display: inline;
+	}
+	.l-lecture-lists li dd {
+		display: table-cell;
+		border-top: 1px solid #221814;
+		border-bottom: 1px solid #221814;
+		font-size: 1.33em;
+		line-height: 1.5;
+		vertical-align: middle;
+	}
+	.l-lecture-lists li dd.thumb {
+		border-top: none;
+		border-bottom: none;
+		text-align: center !important;
+		/*padding-left: 2.86%;
+		padding-right: 3.22%;*/
+		width: 22.04%;
+	}
+	.l-lecture-lists li dd.thumb_list {
+		padding: 0 10px;
+		min-width: 320px;
+	}
+	.l-lecture-lists li dd.thumb img {
+		width: 72.6% !important;
+	}
+	.l-lecture-lists li dd.thumb_list img {
+		width: 100% !important;
+	}
+	.l-lecture-lists li dd.detail {
+		width: 52.42%;
+		padding-right: 2.86%;
+		padding-top: .5%;
+		padding-bottom: .5%;
+	}
+	.l-lecture-lists li dd.file {
+		width: 10.86%;
+		padding-top: 0;
+	}
+
+	.l-lecture-lists li dd p {
+		line-height: 1.5 !important;
+	}
+	.l-lecture-lists li dd h2 {
+		line-height: 1.2 !important;
+		margin-bottom: .2em;
+		font-weight: bold;
+	}
+	.l-lecture-lists li dd h2.kakkoIndent {
+		text-indent: -1.1em;
+		padding-left: 1.1em;
+	}
+	.l-lecture-lists li dd i {
+		color: #8a8b8a;
+		font-size: 1em;
+		margin-right: .1em;
+	}
+	.l-lecture-lists li dd .title {
+		margin-bottom: 8px;
+	}
+
+	.l-lecture-lists--seminar li dd small {
+		font-size: .875em;
+	}
+	/*.l-lecture-lists--seminar li dd .headline-group {
+		text-indent: -4.5em;
+		padding-left: 4.5em;
+	}*/
+
+	.l-lecture-lists--seminar .schejule {
+		margin-bottom: .5em;
+	}
+}
+@media screen and (max-width: 479px) {
+	.thumb_movie{
+		width: 100%;
+		padding-top: 56.25%;
+		position: relative;
+	}
+	.thumb_movie iframe{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+}
+

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-style-type" content="text/css">
+  <meta http-equiv="content-script-type" content="text/javascript">
+  <meta name="robots" content="index, follow">
+  <title>オプション検査|健康管理センター|小倉記念病院</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="copyright" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+	<meta property="og:type" content="article">
+	<meta property="og:description" content="小倉記念病院は、高い専門性・緊急性のある診療、手術を要する医療を提供することが、ここ福岡・北九州（小倉）地域の住民・患者の皆様への役割と考えています。地域の医療施設が役割分担し、協力して医療を完結する「地域完結型医療」を目指します。">
+	<meta property="og:title" content="患者さんの幸せと地域医療を支える｜小倉記念病院">
+	<meta property="og:url" content="http://www.kokurakinen.or.jp/">
+	<meta property="og:image" content="http://www.kokurakinen.or.jp/images/ogimage.jpg">
+	<meta property="og:site_name" content="小倉記念病院">
+
+  <link rel="stylesheet" href="/common/css/kenkan.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+  <script src="/common/js/jquery-1.11.1.min.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="/common/js/html5shiv.js"></script>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <script src="/common/js/jquery.belatedPNG.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="header">
+	<div class="menu">
+		<nav id="globalNavi">
+			<ul class="mainNavi">
+				<li><a href="/kenkan/stay/"><img src="/kenkan/common/images/btn_global_stay.png" alt=""><span>宿泊ドック</span></a></li>
+				<li><a href="/kenkan/1day/"><img src="/kenkan/common/images/btn_global_1day.png" alt=""><span class="space1day">日帰り人間ドック</span></a></li>
+				<li><a href="/kenkan/ippan/"><img src="/kenkan/common/images/btn_global_ippan.png" alt=""><span>一般健診</span></a></li>
+				<li><a href="/kenkan/nou/"><img src="/kenkan/common/images/btn_global_nou.png" alt=""><span>脳ドック</span></a></li>
+				<li><a href="/kenkan/nyugan/"><img src="/kenkan/common/images/btn_global_nyugan.png" alt=""><span>乳がん検診</span></a></li>
+				<li><a href="/kenkan/koukuu/"><img src="/kenkan/common/images/btn_global_koukuu.png" alt=""><span>航空身体検査</span></a></li>
+				<li><a href="/kenkan/option/"><img src="/kenkan/common/images/btn_global_option.png" alt=""><span>オプション検査</span></a></li>
+				<li><a href="/kenkan/premium/"><img src="/kenkan/common/images/btn_global_premium.png" alt=""><span>PREMIUM<br>DOCK</span></a></li>
+				<li><a href="/press/pdf/other/kenkan.pdf" target="_blank"><img src="/kenkan/common/images/btn_global_ningen.png" alt=""><span>人間ドック<br>のススメ</span></a></li>
+			</ul>
+			<ul class="subNavi">
+				<li><a href="/kenkan/jyushin/beginner/"><img src="/kenkan/common/images/ico_beginner.png" alt=""><span>はじめての方へ</span></a></li>
+				<li><a href="/kenkan/jyushin/support/"><img src="/kenkan/common/images/ico_support.png" alt=""><span>受診後のサポート</span></a></li>
+				<li><a href="/kenkan/jyushin/floormap/"><img src="/kenkan/common/images/ico_floormap.png" alt=""><span>フロアマップ</span></a></li>
+				<li><a href="/kenkan/jyushin/access/"><img src="/kenkan/common/images/ico_access.png" alt=""><span>交通アクセス</span></a></li>
+				<li><a href="/kenkan/nintei/"><img src="/kenkan/common/images/ico_nintei.png" alt=""><span>施設認定</span></a></li>
+				<li><a href="/kenkan/faq/"><img src="/kenkan/common/images/ico_faq.png" alt=""><span>よくある質問</span></a></li>
+				<li><a href="/kenkan/yoyaku/"><img src="/kenkan/common/images/ico_yoyaku.png" alt=""><span>予約方法</span></a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="brand">
+		<p class="logo">小倉記念病院 健康管理センター</p>
+		<div class="address">
+			<p>〒802-8555  福岡県北九州市小倉北区浅野3丁目2-1</p>
+			<p>受付時間／月〜金曜日　9：30〜15：30</p>
+			<p><span class="spaceKyushin">休診日</span>／土・日曜日、祝日、年末年始</p>
+		</div>
+		<div class="tel"><span class="telNumber">TEL.093-511-3255</span><span class="small">（完全予約）</span></div>
+	</div>
+</header>
+
+<div id="mainVisual" class="w100p cf">
+	<ul class="slides">
+		<li><img src="./images/img_mainvisual_01.jpg" alt=""></li>
+		<li><img src="./images/img_mainvisual_02.jpg" alt=""></li>
+		<li><img src="./images/img_mainvisual_03.jpg" alt=""></li>
+		<li><img src="./images/img_mainvisual_04.jpg" alt=""></li>
+	</ul>
+</div>
+
+<div id="contents" class="l-kenkan_premium_bg">
+	<section id="main" class="l-kenkan l-kenkan_premium">
+		<article>
+
+			<section>
+
+				<div class="l-kenkan_premium__section">
+					<img class="mb1" src="./images/img_intro_01.jpg" alt="">
+
+					<p class="l-kenkan_premium__title">医疗设备</p>
+
+					<p class="mb5">在最新的设备和医疗技术条件下、我们致力于把握每一位就诊人的健康状态和早期发现有损于维护今后健康的问题。特别是冠状动脉CT、头部MRI・MRA检查、由循环科和神经外科的专科医师进行诊断</p>
+
+					<div class="cf twoColumn mb5">
+						<div class="flL mb1">
+							<img class="mb1" src="./images/img_intro_02.jpg" alt="">
+							<p class="l-kenkan_premium__title">牵引日本的医疗</p>
+							<p>1949年、世界首次成功胰腺癌患者的胰腺全摘。1982年、日本首次成功冠状动脉的经皮冠状动脉形成术（PCI）。借以世界水平的技术和最新的医疗设备、至今还自豪我们有国内屈指可数的业绩。特别是作为循环疾患的先锋、对缺血性心脏疾病、心律失常、心脏衰竭、结构性心脏疾病、心脏手术、无论是任何心脏治疗都以国内尖端水平为自豪、在循环系统的所有领域都在日本为领先地位、我们以此为自负提供最佳的高端先进医疗。</p>
+						</div>
+						<div class="flR">
+							<img class="mb1" src="./images/img_intro_03.jpg" alt="">
+							<p class="l-kenkan_premium__title">100年的历史</p>
+							<p>小仓纪念医院1916年创立以来、近百年一直在发挥极大的作用。在本院创立100周年之际，我们将不断迈向新的100年、创造“更加可信赖的医院”。小仓纪念医院今后也将一如既往提供“温馨的高端医疗”、永远在朝着有“良心”的医院而努力。我们以热情和强烈的使命感，全力以赴“为患者服务”。</p>
+						</div>
+					</div>
+					<div class="cf twoColumn mb5">
+						<div class="flL mb1">
+							<img class="mb1" src="./images/img_intro_04.jpg" alt="">
+							<p class="l-kenkan_premium__title">特别客厅</p>
+							<p>在综合病栋的顶层设有可眺望关门海峡的特别客厅、房内有卧室、起居室、餐厅厨房、家庭等候室、步入式衣橱、带按摩浴缸的浴室、备有优雅的家具、大型彩电、微波炉、洗衣机等用品。大面积及物品齐备、在国内外皆不逊色。它通过和谐之感的室内装饰和日式庭园表现出日本的风格、也是满足国际需求的设施。</p>
+						</div>
+						<div class="flR">
+							<img class="mb1" src="./images/img_intro_05.jpg" alt="">
+							<p class="l-kenkan_premium__title">餐饮</p>
+							<p>边观赏日本庭院边享受奢华的日本料理。使用日本四季分明的独特材料、精心制作时令美食、看得高兴、闻得芳馨、吃得美味、用您的五感来品味“和”的心怀。素材以最可口的状态请您品尝时节极致的美食。</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="l-kenkan_premium__section">
+					<h2 class="mb2"><img src="./images/ttl_about.png" alt="PREMIUM DOCK"></h2>
+
+					<h3 class="l-kenkan_premium__title l-kenkan_premium__title--bordered">特&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;征</h3>
+
+					<div class="center">
+						<p class="mb2">病是在生病之前早期发现、早期治疗极为重要。本中心通过各个诊疗科的合作、准备了充实的特级综合检查。<br>
+							请赠送给您自己一个“健康与安心”的礼物。
+						</p>
+
+						<p class="mb2 fz10">小仓纪念医院的各诊疗科的专科医师对各个检查项目分别过目、进行个别诊断后再作综合诊断。<br>
+							检查是从胸部到骨盆一次CT检查全身。
+						</p>
+					</div>
+
+					<h3 class="l-kenkan_premium__title l-kenkan_premium__title--bordered">检查周日与时间</h3>
+
+					<div class="center">
+						<p class="l-kenkan_premium__open_time">日本时间 周四、周五两天 每天 8:00-17:00</p>
+					</div>
+				</div>
+
+				<div class="l-kenkan_premium__section">
+					<h2 class="mb2"><img src="./images/ttl_about_heart.png" alt="HEART DOCK"></h2>
+
+					<img src="./images/img_heart_01.jpg" alt="">
+
+					<div class="cf l-kenkan_premium__doctor">
+						<div class="l-kenkan_premium__doctor-image"><img src="./images/img_heart_doctor.jpg" alt=""></div>
+						<div class="l-kenkan_premium__doctor-text">
+							<p class="l-kenkan_premium__doctor-name"><span>循环内科 主任</span> 曾我 芳光</p>
+							<p>对心血管疾病、为了尽力早期预防和早期发现、我们开设了心血管综合检查。血管衰老一般是20岁左右开始。而且随增龄恶化。您不会认为“我还年轻”、“没什么了不起的”吧？忽视动脉硬化、恶化时所表现的是“症状”。因此“症状”有可能是全身已经动脉硬化的一小部分。我们认为尽早知晓自身的心脏和动脉硬化的程度相关到有效的预防医疗、所以准备了以下的检查。</p>
+						</div>
+					</div>
+
+
+					<div class="cf twoColumn">
+						<div class="flL mb1">
+							<div class="l-kenkan_premium__border-box">
+								<div class="l-kenkan_premium__border-box-title">
+									心脏检查
+								</div>
+								<div class="l-kenkan_premium__border-box-body">
+									<ul>
+										<li>①心脏功能和瓣膜病检查的心脏超声波</li>
+										<li>②心绞痛和心肌梗塞检查冠状动脉CT</li>
+										<li>③心律失常检查动态心电图</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="flR">
+							<div class="l-kenkan_premium__border-box">
+								<div class="l-kenkan_premium__border-box-title">
+									全身<br>
+									动脉硬化的<br>
+									指标
+								</div>
+								<div class="l-kenkan_premium__border-box-body">
+									<ul>
+										<li>①血管硬度和下肢血流检查ABI</li>
+										<li>②血管壁肥厚检查颈动脉超声波</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="l-kenkan_premium__section">
+					<h2 class="mb2"><img src="./images/ttl_about_brain.png" alt="BRAIN DOCK"></h2>
+
+					<img src="./images/img_brain_01.jpg" alt="">
+
+					<div class="cf l-kenkan_premium__doctor">
+						<div class="l-kenkan_premium__doctor-image"><img src="./images/img_brain_doctor.jpg" alt=""></div>
+						<div class="l-kenkan_premium__doctor-text">
+							<p class="l-kenkan_premium__doctor-name"><span>理事长 院长</span> 永田 泉</p>
+							<p>“脑卒中”即使生命得救、也会留下后遗症。此病大多需要看护、是很难复原的疾病之一。脑卒中大多没有任何前兆而突然发病。预防该脑卒中的有效手段是“脑综合检查”。脑卒中有脑溢血和脑梗塞等、发现造成脑内出血危险因素的脑动脉瘤、脑梗塞危险因素的脑血管和颈动脉狭窄、改善或推迟其恶化、早期治疗极为重要。本院使用最新的高端设备、由院长通过详细的影像做出诊断。</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="center">
+					<div class="mb3"><img src="./images/ico_arrow_down.png" width="40" alt=""></div>
+					<p class="fz10 mb2">想接受特级综合检查的宾客、请予JTB的JMHC的网站联系。</p>
+					<a href="http://jp-jmhc.com/zh/medical_program/20160328_1213.html" target="_blank"><img src="./images/img_jtb.png" width="143" alt="jtb"></a>
+				</div>
+
+			</section>
+		</article>
+
+	</section><!--/ #main -->
+
+</div><!--/ #contents -->
+
+<footer id="footer">
+	<div class="inner">
+		<div id="footerMenu">
+			<ul>
+				<li><a href="/privacy/">個人情報保護方針</a></li>
+				<li><a href="/sitemap/">サイトマップ</a></li>
+				<li><a href="/shisenkai/" target="_blank">一般財団法人 平成紫川会</a></li>
+				<li><a href="/gallery/" target="_blank">フォトギャラリー</a></li>
+				<li><a href="/common/pdf/fb_unyou.pdf" target="_blank">Facebook運用ポリシー</a></li>
+			</ul>
+		</div>
+		<p id="copyright">Copyright © 2014Kokura Kinen Hospital All rights reserved. </p>
+	</div>
+</footer>
+
+<script src="/common/js/share.js"></script>
+<script src="/common/js/jquery.flexslider-min.js"></script>
+<script src="/common/js/slide.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55024782-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

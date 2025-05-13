@@ -1,0 +1,125 @@
+
+body {
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	background-color:  #f3ebeb;
+	font-size: 1.3rem;
+}
+
+.container {
+	background-color:  white;
+	padding: 5%;
+}
+
+h1,h2,h3 {
+	vertical-align: middle;
+	padding-right: 5px;
+	margin-top: 0;
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+h4,h5,h6 {
+	vertical-align: middle;
+	padding-right: 5px;
+	margin-top: 0;
+	font-size: 1.2rem;
+}
+
+table {
+	border-collapse:collapse !important;
+}
+
+th {
+	color: black !important;
+	font-weight: 600;
+	background-color: #c9c9ca !important;
+	vertical-align: center;
+	border: none !important;
+	border-top: 1px dashed #9FA0A0 !important;
+	border-bottom: 1px dashed #9FA0A0 !important;
+}
+
+.left {
+	text-align: left;
+}
+
+td {
+	vertical-align: center;
+	border: none !important;
+	border-top: 1px dashed #9FA0A0 !important;
+	border-bottom: 1px dashed #9FA0A0 !important;
+}
+
+.radio-form {
+	padding-right: 10px;
+}
+
+.red{
+	color: red;
+}
+
+.blue{
+	color: blue;
+	text-decoration:underline;
+	text-decoration-color: blue;
+}
+
+.text {
+	width: 30%;
+}
+
+header {
+	background-color: white;
+}
+
+.title {
+  background-color: #280064;
+  color: white;
+  padding: 5px 10px;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+  overflow-y: scroll;
+  background-color: white !important;
+}
+
+footer#footer {
+	background-color: #f3ebeb !important;
+}
+
+.result {
+	height: 80%;
+}
+
+label .option0{
+	font-weight: bold !important;
+}
+
+@media (min-width: 768px){
+	.col-md-2 {
+	flex: 0 0 auto;
+    width: 10%;
+	}
+
+	.col-md-4 {
+		flex: 0 0 auto;
+		width: 40%;
+	}
+
+	.text-right{
+		text-align: right !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.s-button {
+		width: 30% !important;
+	}
+	button {
+		width: 30% !important;
+	}
+}

@@ -1,0 +1,1 @@
+const pdf_url_latest = "/cms/wp-content/uploads/2023/04/20240401_%E3%81%94%E9%9D%A2%E4%BC%9A%E3%81%AE%E7%9A%86%E6%A7%98%E3%81%B8.pdf";
