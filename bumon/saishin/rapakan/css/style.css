@@ -1,0 +1,217 @@
+.l-shiryou-saishin {
+    padding-top: 0;
+    margin-top: -22px;
+}
+.notes-01 {
+    padding-left: 3em;
+    text-indent: -3em;
+}
+.sub-title-01 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sub-title-02 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+    .l-shiryou-saishin #mainVisual {
+        position: relative;
+        padding-left: 0;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 70px;
+    }
+    .l-shiryou-saishin #mainVisual .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        width: 41%;
+        padding-top: 8%;
+        left: .4%;
+        background: none;
+        text-align: left;
+        height: 100%;
+    }
+    .l-shiryou-saishin #mainVisual .text img {
+        height: auto;
+    }
+    .l-shiryou-saishin #mainVisual .mainVisual_text  {
+        bottom: 0;
+    }
+    .l-shiryou-saishin #mainVisual .mainVisual_text p {
+        line-height: 2.2;
+    }
+    .mainVisual_text_date {
+        font-size: 1.4rem !important;
+        line-height: 1 !important;
+    }
+
+    #mainVisual .text .dataTitle {
+        margin-bottom: 2px;
+        margin-top: 45%;
+    }
+    #mainVisual .text .data {
+        margin-right: 0;
+        font-weight: bold;
+    }
+    .l-shiryou-saishin #mainVisual .text .bigger {
+        font-size: 5.2rem;
+        letter-spacing: -.02em;
+        font-weight: normal;
+    }
+    .l-shiryou-saishin #mainVisual .image {
+        position: relative;
+        right: 0;
+        width: 100%;
+    }
+    .contentBox .title span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .contentBox li {
+        padding-left: 1em;
+        text-indent: -1em;
+    }
+}
+.contentBox--full {
+    width: 100% !important;
+    float: none;
+}
+.sub-01 {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+.sub-01 figure {
+    display: block;
+    width: 24%;
+}
+.sub-02 {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.sub-02 div:first-child {
+    width: 25%;
+    margin-top: -1%;
+}
+.sub-02 div:last-child {
+    width: 70%;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.profile > div {
+    width: 48%;
+}
+.profile__movie {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+.profile iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.l-shiryou-saishin .contentBox .profile .title {
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+}
+
+.l-shiryou-saishin .contentBox .title {
+    border-bottom: none;
+    margin-bottom: 1em;
+    letter-spacing: .05em;
+    border-bottom: 1px solid;
+}
+#main .contentBox .profile li {
+    line-height: 1.83;
+    font-feature-settings: 'palt';
+    padding-left: 0;
+    text-indent: 0;
+}
+.l-shiryou-saishin .contentBox.profile-text {
+    width: 53.869499241%;
+    padding-top: 4em;
+}
+
+
+.right {
+    text-align: right !important;
+}
+
+@media screen and (max-width: 481px) {
+    #mainVisual .start img {
+        width: 50%;
+    }
+    #mainVisual .text {
+        position: relative;
+        z-index: 2;
+        margin-bottom: 0 !important;
+        margin-top: 2em;
+    }
+    #mainVisual .mainVisual_text {
+        margin-top: 2em;
+    }
+    #mainVisual .image img {
+        position: relative;
+        z-index: 1;
+        margin-top: -80px;
+        height: 80vmin;
+        object-fit: cover;
+        object-position: 88% 50%;
+    }
+    .profile {
+        display: block;
+    }
+    .profile div {
+        width: 100%;
+        margin-bottom: 3em;
+    }
+}
+
+.l-shiryou-saishin .backBtn {
+    top: 30px;
+}
+
+.btn--daVinci {
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px 15px;
+    margin:0 auto;
+    width: 20%;
+    background: #efeee7;
+}
+
+a.btn--yellow {
+    color: #000;
+    background-color: #d6d6d6;
+    border-bottom: 5px solid #7c7c7c;
+  }
+  
+a.btn--yellow:hover {
+    margin-top: 3px;
+    color: #000;
+    background: #d6d6d6;
+    border-bottom: 2px solid #7c7c7c;
+  }
+
+.test{
+width: 70%;
+}

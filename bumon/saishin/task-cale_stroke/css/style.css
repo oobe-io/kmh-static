@@ -1,0 +1,75 @@
+@media screen and (min-width: 480px) {
+    .l-shiryou-saishin #mainVisual {
+        padding-left: 0;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    .l-shiryou-saishin #mainVisual .text {
+        width: 50%;
+        padding-top: 14%;
+        float: left;
+        background: none;
+    }
+    .l-shiryou-saishin #mainVisual .image {
+        position: relative;
+        float: right;
+        right: 0;
+        top: 0;
+        width: 52.3168909%;
+        z-index: 0;
+    }
+    #mainVisual .pageTitle {
+        position: absolute;
+        width: 59.8654709%;
+    }
+    #mainVisual .text .data {
+        margin-right: 0;
+        font-weight: bold;
+    }
+    .l-shiryou-saishin #mainVisual .text .bigger {
+        font-size: 3.5em;
+        letter-spacing: -.02em;
+        font-weight: normal;
+    }
+}
+.right {
+    text-align: right !important;
+}
+.btn {
+    background: #eeeee6;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 2em;
+}
+.btn a {
+    padding: .25em 5em;
+}
+
+.contentBox--full {
+    width: 100% !important;
+    float: none;
+}
+
+.ipadMieruka {
+    position: relative;
+}
+.ipadMieruka > a {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    text-indent: 100%;
+    overflow: hidden;
+    width: 13%;
+    height: 14%;
+}
+@media screen and (max-width: 481px) {
+    .btn {
+        width: 60%;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .btn a {
+        padding: 1em;
+    }
+}

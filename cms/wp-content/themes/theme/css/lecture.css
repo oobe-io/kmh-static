@@ -1,0 +1,322 @@
+/* list
+-----------------------------------------*/
+#sinryouMenu.al li{
+	width: auto;
+}
+#sinryouMenu.al li.current_page_item,
+#sinryouMenu.al li.current_page_item a{
+	background: #000;
+    color: #fff;
+}
+
+.pc{
+	display: block;
+}
+.sp{
+	display: none;
+}
+
+.l-lecture-lists .btn{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.l-lecture-lists .btn a{
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 20px;
+	background: #000;
+	font-size: 1.4rem;
+}
+.l-lecture-lists .notice {
+	color: #f00;
+}
+.l-lecture-lists li dd.thumb_list .youtube{
+	max-width: 322px;
+	position: relative;
+	padding-top: 56.25%;
+}
+.l-lecture-lists li dd.thumb_list .youtube iframe {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+.l-lecture-lists li dd.detail .title .type{
+	margin-bottom: 10px;
+} 
+.l-lecture-lists li dd.file img {
+	max-width: 88px;
+}
+
+/* entry
+-----------------------------------------*/
+#main .form_wrap{
+	max-width: 900px;
+	margin: 0 auto;
+}
+#main .form_wrap .form_head h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5em;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #000;
+}
+#main .form_wrap .form_head p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.6em;
+}
+#main .form_wrap .form_head p span{
+	display: inline-block;
+	margin: 0 10px;
+}
+#main .form_wrap .form_message{
+	margin: 20px 0;
+}
+#main .form_wrap .form_message .form_message_att{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+/* error */
+#main .form_wrap .error_list{
+	color: #c00;
+	margin-bottom: 15px;
+}
+#main .form_wrap .error_message{
+	color: #c00;
+	display: none;
+}
+#main .form_wrap .required{
+	color: #c00;
+}
+
+/* form table */
+#main .form_wrap .form_input table{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#main .form_wrap .form_input table caption{
+	line-height: 1;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 7px;
+	border: 1px solid #717071;
+}
+#main .form_wrap .form_input th{
+	color: #000;
+	vertical-align: middle;
+}
+#main .form_wrap .form_input td.form_input_name dl{
+	display: table;
+	float: left;
+}
+#main .form_wrap .form_input td.form_input_name dt,
+#main .form_wrap .form_input td.form_input_name dd{
+	display: table-cell;
+	vertical-align: middle;
+}
+#main .form_wrap .form_input td.form_input_name dt{
+	padding-right: 5px;
+}
+#main .form_wrap .form_input td.form_input_name dd{
+	padding-right: 15px;
+}
+
+/* input */
+#main .form_wrap .form_input input{
+	padding: 4px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#main .form_wrap .form_input input[type="text"],
+#main .form_wrap .form_input input[type="tel"],
+#main .form_wrap .form_input input[type="email"]{
+	width: 100%;
+	border: 1px solid #888;
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+#main .form_wrap .form_input input[type=radio]{
+	vertical-align: middle;
+	margin: -2px 3px 0 0;
+}
+#main .form_wrap .form_input input :not(input[type=radio]){
+	-webkit-appearance: none;
+}
+#main .form_wrap .form_input input.name{
+	width: 100px;
+	margin-left: 5px;
+}
+#main .form_wrap .form_input input.w60{
+	width: 60px;
+}
+#main .form_wrap .form_input input.email{
+	width: 400px;
+}
+#main .form_wrap .form_input .js-button,
+#main .form_wrap .form_input .js-button2{
+	color: #221814;
+	font-size: .9em;
+	margin-left: 5px;
+	margin-top: -2px;
+	padding: 4px 6px;
+	cursor: pointer;
+	border: 1px solid #666;
+	border-radius: 4px;
+	-webkit-appearance: none;
+	background: #eee;
+}
+
+/* btn */
+#main .form_wrap .form_btn{
+	text-align: center;
+}
+#main .form_wrap .form_btn input{
+	width: 150px;
+	margin: 0 5px;
+	padding: 8px 0;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #000;
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+#main .form_wrap .form_btn input:hover{
+	background: #eee;
+}
+#main .form_wrap .form_btn input.btn_back{
+	background: #ddd;
+	border: 1px solid #ddd;
+}
+
+/* thanks */
+#main .form_wrap .thanks_message{
+	margin: 20px 0;
+	padding: 20px 15px;
+	background: #eee;
+}
+#main .form_wrap .thanks_message .thanks_message_title{
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: bold;
+}
+#main .form_wrap .thanks_message .thanks_message_btn a{
+	display: block;
+	width: 150px;
+	margin: 15px auto 0;
+	padding: 5px;
+	border: 1px solid #333;
+	background: #fff;
+	text-align: center;
+}
+
+@media screen and (max-width:480px) {
+
+/* list
+-----------------------------------------*/
+.pc{
+	display: none;
+}
+.sp{
+	display: block;
+}
+
+.l-lecture-lists li dd.thumb_list .youtube{
+	max-width: 100%;
+	width: 100%;
+}
+.l-lecture-lists li dd.detail .title .type{
+	margin: 10px 0 0;
+} 
+/*
+.l-lecture-lists li dd.file{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.l-lecture-lists dd.entry {
+	text-align: center;
+}
+*/
+.l-lecture-lists dd.entry .btn {
+	width: 45%;
+	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 16px;
+}
+.l-lecture-lists dd.entry .btn a {
+	padding: 10px 0;
+}
+
+/* entry
+-----------------------------------------*/
+#main .form_wrap .form_head h2{
+	font-size: 1.5em;
+	line-height: 1.4;
+}
+#main .form_wrap .form_head p{
+	font-size: 1.2em;
+}
+#main .form_wrap .form_head p span{
+	display: block;
+	margin: 0;
+}
+#main .form_wrap .form_message .form_message_att{
+	font-size: inherit;
+}
+
+/* form table */
+#main .form_wrap .form_input table{
+	overflow: inherit;
+	white-space: normal;
+	border-top: none;
+	margin-bottom: 25px;
+}
+#main .form_wrap .form_input table caption,
+#main .form_wrap .form_input table tbody,
+#main .form_wrap .form_input table tr{
+	width: 100%;
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#main .form_wrap .form_input table th,
+#main .form_wrap .form_input table td{
+	display: block;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#main .form_wrap .form_input table caption{
+	font-size: 1.1em;
+	padding: 10px;
+}
+#main .form_wrap .form_input table th{
+	padding: 6px 8px;
+}
+#main .form_wrap .form_input table td{
+	padding: 12px 10px;
+}
+#main .form_wrap .form_input input{
+	padding: 6px;
+	font-size: 1em;
+	color:black;
+}
+#main .form_wrap .form_input input.name{
+	margin-bottom: 8px;
+}
+#main .form_wrap .form_input input.email{
+	width: 100%;
+}
+
+#main .form_wrap .form_btn input{
+	display: inline;
+	width: 48%;
+	margin: 0 2px;
+	padding: 10px;
+}

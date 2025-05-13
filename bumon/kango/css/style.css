@@ -1,0 +1,53 @@
+@media screen and (max-width: 481px){
+    .mt1{
+        margin-top: 1rem !important;
+    }
+
+    .wid-cont{
+        width:15% !important
+    }
+
+}
+
+
+@media screen and (min-width: 480px){
+    .wid-cont{
+        width:10% !important
+    }
+
+    
+
+}
+
+.btn--daVinci {
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px 15px;
+    margin:0 auto;
+    width: 80% !important;
+    background: #efeee7;
+}
+
+a.btn--yellow {
+    color: white;
+    text-shadow: 2px 2px 3px #af4966;
+    background-color: #EF9DB4;
+  }
+  
+a.btn--yellow:hover {
+    margin-top: 3px;
+    color: white;
+    background: #eeb1c3;
+  }
+
+  #main .borderTable.equal td{
+    width: 75.0% !important;
+  }
+
+  .center-black{
+      text-align: center !important;
+      vertical-align: middle !important;
+      color:black !important;
+      font-weight: bold !important;
+    }

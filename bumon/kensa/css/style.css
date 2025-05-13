@@ -1,0 +1,16 @@
+@media screen and (max-width: 481px){
+    .mt1{
+        margin-top: 1rem !important;
+    }
+
+    .wid-cont{
+        width:15% !important
+    }
+}
+
+@media screen and (min-width: 480px){
+    .wid-cont{
+        width:10% !important
+    }
+
+}

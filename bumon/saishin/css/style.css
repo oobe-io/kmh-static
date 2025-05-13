@@ -1,0 +1,26 @@
+.c-column {
+    overflow: hidden;
+}
+.c-column__item {
+    width: 31.6143498%;
+    height: 31.6143498%;
+    float: left;
+    margin-right: 2.5784753%;
+    margin-bottom: 2.5784753%;
+    box-sizing: border-box;
+}
+.c-column__item.is-blank {
+    border: 1px solid #f2f2ec;
+    padding-top: 12.075%;
+}
+.c-column__item:nth-child(3n) {
+    margin-right: 0;
+}
+.c-column__item:nth-child(3n+1) {
+    clear: left;
+}
+
+.ber-black{
+    background-color: black;
+    color: white;
+}

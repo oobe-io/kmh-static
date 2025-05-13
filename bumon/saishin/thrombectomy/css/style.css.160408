@@ -1,0 +1,83 @@
+@media screen and (min-width: 480px) {
+    .l-shiryou-saishin #mainVisual {
+        padding-left: 0;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    .l-shiryou-saishin #mainVisual .text {
+        width: 38.4110613%;
+        padding-top: 14%;
+        float: left;
+        background: none;
+    }
+    .l-shiryou-saishin #mainVisual .image {
+        position: relative;
+        float: right;
+        right: 0;
+        top: 0;
+        width: 58.8938714%;
+        z-index: 0;
+    }
+    #mainVisual .pageTitle {
+        position: absolute;
+        width: 47.1599402%;
+    }
+    #mainVisual .text .data {
+        margin-right: 0;
+        font-weight: bold;
+    }
+    .l-shiryou-saishin #mainVisual .text .bigger {
+        font-size: 3.5em;
+        letter-spacing: -.02em;
+        font-weight: normal;
+    }
+    .c-column {
+        overflow: hidden;
+    }
+    .c-column__item {
+        float: left;
+        width: 23.916293%;
+        margin-right: 1.444942667%;
+        margin-bottom: 2.8%;
+    }
+    .c-column__item:nth-child(4n) {
+        margin-right: 0;
+    }
+    .c-column__item img {
+        margin-bottom: 1em;
+    }
+    .c-column__item p {
+        text-align: center !important;
+    }
+}
+.right {
+    text-align: right !important;
+}
+.btn {
+    background: #eeeee6;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 .5em;
+}
+.btn a {
+    padding: .25em 5em;
+}
+
+.contentBox--full {
+    width: 100% !important;
+    float: none;
+}
+
+.ipadMieruka {
+    position: relative;
+}
+.ipadMieruka > a {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    text-indent: 100%;
+    overflow: hidden;
+    width: 13%;
+    height: 14%;
+}

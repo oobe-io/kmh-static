@@ -1,0 +1,1301 @@
+@charset "UTF-8";
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline
+}
+html {
+	line-height: 1
+}
+ol,ul {
+	list-style: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+caption,td,th {
+	text-align: left;
+	font-weight: 400;
+	vertical-align: middle
+}
+blockquote,q {
+	quotes: none
+}
+blockquote:after,blockquote:before,q:after,q:before {
+	content: "";
+	content: none
+}
+a img {
+	border: none
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+	display: block
+}
+html {
+	line-height: 1.7;
+	font-size: 75%;
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	color: #221814
+}
+.locked {
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	z-index: 1
+}
+img {
+	max-width: 100%;
+	vertical-align: middle
+}
+#map img {
+	max-width: none
+}
+#mapArea {
+	height: 100%
+}
+#mapArea iframe {
+	height: 71%
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: #221814
+}
+a:hover {
+	opacity: .5;
+	-ms-filter: "alpha( opacity=50 )"
+}
+#contents:after,#contents:before {
+	content: '';
+	display: table
+}
+#globalNavi:after,#globalNavi:before {
+	content: '';
+	display: table
+}
+#header .mainNavi:after,#header .mainNavi:before {
+	content: '';
+	display: table
+}
+#header .subNavi:after,#header .subNavi:before {
+	content: '';
+	display: table
+}
+#main:after,#main:before {
+	content: '';
+	display: table
+}
+.cf:after,.cf:before {
+	content: '';
+	display: table
+}
+header:after,header:before {
+	content: '';
+	display: table
+}
+#contents:after,#globalNavi:after {
+	clear: both
+}
+#header .mainNavi:after,#header .subNavi:after {
+	clear: both
+}
+#main:after,.cf:after,header:after {
+	clear: both
+}
+#contents,#globalNavi {
+	zoom: 1
+}
+#header .mainNavi,#header .subNavi {
+	zoom: 1
+}
+#main,.cf {
+	zoom: 1
+}
+header {
+	zoom: 1;
+	width: 90%;
+	margin: 0 auto
+}
+footer {
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto
+}
+#main {
+	margin: 0 auto;
+	background: #fff
+}
+#main hgroup {
+	margin-bottom: 2em
+}
+#main hgroup img {
+	width: 4.77%;
+	margin-right: .5em
+}
+#main hgroup h1 {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 2.57em
+}
+#main hgroup .option {
+	float: right;
+	margin-top: -1em
+}
+#main hgroup .option .headline02 {
+	margin-bottom: 0;
+	letter-spacing: .1em;
+	margin-left: -.5em
+}
+#main hgroup .option .buttons img {
+	width: 30px
+}
+#main hgroup .option .buttons .button {
+	display: inline-block;
+	text-align: center
+}
+#main hgroup .option .buttons .button p {
+	white-space: nowrap
+}
+#main section {
+	font-size: 1.08em
+}
+#optionDaichouBtn {
+	margin-right: -15px
+}
+#optionDaichouBtn p {
+	letter-spacing: -.1em
+}
+.headline02 {
+	font-size: 1.58em;
+	margin-bottom: .4em
+}
+.headline03 {
+	font-size: 1.18em;
+	margin-bottom: .6em
+}
+.headlineBrown,.l-kenkan_1day .colorHeader,.l-kenkan_ippan .colorHeader,.l-kenkan_koukuu .colorHeader,.l-kenkan_nyugan .colorHeader,.l-kenkan_option .colorHeader,.l-kenkan_stay .colorHeader {
+	background: #EEEDE8;
+	padding: .3em 1em;
+	margin-bottom: 1em
+}
+.kakkoIndent {text-indent: -.2em}
+.mb {margin-bottom: .5em}
+.mb1 {margin-bottom: 1em}
+.mb2 {margin-bottom: 2em}
+.mb3 {margin-bottom: 3em}
+.mb4 {margin-bottom: 4em}
+.mb5 {margin-bottom: 5em}
+.ml-05 {margin-left: -.5em}
+.mr {margin-right: .5em}
+.mr1 {margin-right: 1em}
+.mr2 {margin-right: 2em}
+.fz8 {font-size: 114%}
+.fz9 {font-size: 128%}
+.fz10,.hilight,.l-kenkan_1day .colorHeader,.l-kenkan_ippan .colorHeader,.l-kenkan_koukuu .colorHeader,.l-kenkan_nyugan .colorHeader,.l-kenkan_option .colorHeader,.l-kenkan_stay .colorHeader {
+	font-size: 131%;
+	line-height: 1.5
+}
+.fz10.mb,.l-kenkan_1day .mb.colorHeader,.l-kenkan_ippan .mb.colorHeader,.l-kenkan_koukuu .mb.colorHeader,.l-kenkan_nyugan .mb.colorHeader,.l-kenkan_option .mb.colorHeader,.l-kenkan_stay .mb.colorHeader,.mb.hilight {
+	margin-bottom: .2em
+}
+.fz11 {
+	font-size: 1.46em;
+	line-height: 1.4
+}
+.ls05 {
+	letter-spacing: .5em;
+	margin-right: -.5em
+}
+.ls-01 {letter-spacing: -.1em}
+.tal {text-align: left}
+.center {text-align: center}
+.tar {text-align: right}
+.hilight {color: #45AF3E}
+.indentList li {
+	padding-left: 1em;
+	text-indent: -1em
+}
+.vat {vertical-align: top}
+.vam {vertical-align: middle}
+.vab {vertical-align: bottom}
+.dib {display: inline-block}
+.topBorder {
+	border-top: 1px solid;
+	margin-top: 1px;
+	padding-top: 1em
+}
+.nowrap {
+	white-space: nowrap
+}
+#header .mainNavi li,#header .subNavi li {
+	white-space: nowrap
+}
+#contents {
+	background: #EEEDE8;
+	padding-top: 1em
+}
+@media screen and (max-width:480px) {
+	.pcOnly{
+		display: none !important;
+	}
+	#header #globalNavi,	#header .brand {
+		display: none
+	}
+	#header .mainNavi {
+		text-align: center;
+		padding-top: 1em
+	}
+	#header .mainNavi li {
+		float: left;
+		width: 33%;
+		text-align: center;
+		margin-bottom: .5em
+	}
+	#header .mainNavi li span {
+		display: block;
+		white-space: nowrap
+	}
+	#header .subNavi {
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		padding: 1em 0;
+		margin: 1em 0
+	}
+	#header .subNavi li {
+		float: left;
+		width: 50%;
+		margin-bottom: .5em
+	}
+	#header .subNavi li img {
+		margin-right: .5em
+	}
+	#header .brand {
+		padding-top: 1em
+	}
+	#header .brand .logo {
+		font-size: 153%;
+		margin-bottom: .3em
+	}
+	#header .brand .tel img {
+		height: 1.5em;
+		margin-right: .5em
+	}
+	#header .brand .tel span {
+		vertical-align: middle
+	}
+	#header .brand .tel .small {
+		vertical-align: sub
+	}
+	#header .brand .telNumber {
+		font-size: 2em
+	}
+	#header .closeBtn {
+		margin: 0 auto;
+		padding: 10px;
+		text-align: center;
+		background: #C9C9CA;
+		color: #fff
+	}
+	#menuBtn {
+		float: right;
+		padding-top: 1em;
+		margin-bottom: 1em
+	}
+	#menuBtn.menuOpen {
+		display: none
+	}
+	#main {
+		padding: 5%
+	}
+	#main hgroup {
+		overflow: hidden
+	}
+	.l-kenkan_faq .answer p,	.l-kenkan_faq .question p {
+		display: inline-block;
+		padding-left: .5em;
+		box-sizing: border-box;
+		width: 91%
+	}
+	.l-kenkan_faq .answer p img,	.l-kenkan_faq .question p img {
+		width: auto;
+		margin-top: .5em
+	}
+	.l-kenkan_faq .answer:before {
+		display: inline-block;
+		padding: .26em .72em;
+		border-radius: 100%;
+		color: #fff;
+		box-sizing: border-box
+	}
+	.l-kenkan_faq .question {
+		margin-bottom: 1em
+	}
+	.l-kenkan_faq .question:before {
+		display: inline-block;
+		padding: .26em .72em;
+		border-radius: 100%;
+		color: #fff;
+		box-sizing: border-box
+	}
+	.l-kenkan_faq .question p {
+		font-size: 142%;
+		display: inline-block;
+		vertical-align: bottom;
+		line-height: 1.4
+	}
+	.l-kenkan_faq .question:before {
+		content: 'Q';
+		background: #C9C9CB;
+		vertical-align: top
+	}
+	.l-kenkan_faq .answer:before {
+		content: 'A';
+		background: #43B03D;
+		vertical-align: top
+	}
+	.l-kenkan_faq .flL .block,	.l-kenkan_faq .flR .block {
+		border-bottom: 1px solid;
+		padding: 1em 0 1.5em
+	}
+	.l-kenkan_faq .flL .block:first-child,	.l-kenkan_faq .flR .block:first-child {
+		border-top: 1px solid
+	}
+	.l-kenkan_yoyaku .contactBox {
+		border: 2px solid #45AF3E;
+		padding: 1em 0;
+		text-align: center
+	}
+	.l-kenkan_yoyaku .contactBox .dib {
+		text-align: left
+	}
+	.l-kenkan_yoyaku .contactBox .tel {
+		color: #44AF3D
+	}
+	.l-kenkan_yoyaku .contactBox .tel img {
+		margin-right: .1em;
+		height: 2.2em;
+		vertical-align: middle
+	}
+	.l-kenkan_yoyaku .contactBox .tel .telNumber {
+		font-size: 2.35em;
+		vertical-align: middle
+	}
+	.l-kenkan_yoyaku .contactBox .tel .telNote {
+		font-size: 1.8em;
+		vertical-align: middle;
+		margin-right: -.5em;
+		margin-left: -.5em
+	}
+	.l-kenkan_yoyaku .indent1 {
+		padding-left: 1em
+	}
+	#footer {
+		width: 100%;
+		border-top: 1px solid #BAB8B9;
+		font-size: .83em
+	}
+	#footer .inner {
+		width: 94%;
+		max-width: 1600px;
+		min-width: 960px;
+		margin: 0 auto;
+		padding: 1em 3% 0
+	}
+	#footerMenu ul {
+		overflow: hidden;
+		border-left: 1px solid #9C9A9A
+	}
+	#footerMenu li a {
+		padding: 0 10px;
+		border-right: 1px solid #9C9A9A
+	}
+	.spHide {
+		display: none!important
+	}
+	.kaizenBox {
+		margin-bottom: 2em
+	}
+	.bgArrowFlow .bg {
+		display: none
+	}
+	.doubleRow .arrow,	.flowArrow {
+		padding: 1em;
+		text-align: center
+	}
+	.doubleRow .arrow img,	.flowArrow img {
+		transform: rotate(90deg)
+	}
+}
+@media screen and (min-width:480px) {
+	.spOnly{
+		display: none !important;
+	}
+	#header {
+		position: relative;
+		padding-top: 2em;
+		min-width: 980px;
+		font-size: 1.08em
+	}
+	#header .menu {
+		float: left;
+		width: 80%;
+		margin-left:-20px;
+	}
+	#header .brand {
+		float: right;
+		line-height: 1.5;
+		width: 20%;
+	}
+	#header .brand .logo {
+		font-size: 153%;
+		margin-bottom: .3em
+	}
+	#header .brand .address .spaceKyushin {
+		letter-spacing: .5em;
+		margin-right: -.5em
+	}
+	#header .brand .tel img {
+		height: 1.5em;
+		margin-right: .5em
+	}
+	#header .brand .tel span {
+		vertical-align: middle
+	}
+	#header .brand .tel .small {
+		vertical-align: sub
+	}
+	#header .brand .telNumber {
+		font-size: 2em
+	}
+	#globalNavi li {
+		float: left
+	}
+	#globalNavi .mainNavi {
+		width: 100%;
+		margin-left: .5rem;
+		/* margin-left: -2.164%; */
+		margin-bottom: 3em
+	}
+	#globalNavi .mainNavi li {
+		width: 10%;
+		text-align: center
+	}
+	#globalNavi .mainNavi li:not(:first-child) {
+		margin-left: 2%;
+	}
+	#globalNavi .mainNavi li img {
+		width: 50%;
+		margin-bottom: .8em
+	}
+	#globalNavi .mainNavi li span {
+		display: block;
+		font-size: 108%;
+		line-height: 1.25
+	}
+	#globalNavi .mainNavi li .space1day {
+		letter-spacing: -.1em
+	}
+	#globalNavi .subNavi {
+		width: 100%;
+		margin-bottom: 3.5em
+	}
+	#globalNavi .subNavi li {
+		margin-right: 2.164%
+	}
+	#globalNavi .subNavi li img {
+		width: 15px
+	}
+	#globalNavi .subNavi li span {
+		vertical-align: middle;
+		padding-left: 3px
+	}
+	#fzSwitch {
+		position: absolute;
+		right: 0;
+		bottom: 10%
+	}
+	#mainVisual {
+		margin-bottom: -1em
+	}
+	#contents {
+		background: #EEEDE8;
+		padding-top: 1em
+	}
+	#main {
+		box-sizing: border-box;
+		width: 82.31%;
+		min-width: 980px;
+		padding: 3em 7.874%
+	}
+	.tableLayout {
+		display: table;
+		width: 100%
+	}
+	.tableLayout .row {
+		display: table-row
+	}
+	.tableLayout .cell {
+		display: table-cell
+	}
+	.flL {
+		float: left
+	}
+	.flR {
+		float: right
+	}
+	.twoColumn .flL,	.twoColumn .flR {
+		width: 45.75%
+	}
+	.threeColumn .column {
+		float: left;
+		width: 28.82%;
+		margin-left: 6.65%
+	}
+	.threeColumn .column:first-child {
+		margin-left: 0
+	}
+	.l-kenkan {
+		min-height: 400px
+	}
+	.l-kenkan .kenshinFlow .flowBox {
+		width: 29.22%
+	}
+	.l-kenkan .kenshinFlow .flowArrow {
+		width: 6.12%
+	}
+	.l-kenkan .kenshinFlow .doubleRow {
+		width: 35.34%
+	}
+	.l-kenkan .kenshinFlow .doubleRow .flowBox {
+		width: 82.68%
+	}
+	.l-kenkan .kenshinFlow .doubleRow .arrow {
+		width: 17.32%
+	}
+	.l-kenkan .kenshinFlow.fourColumn .flowBox {
+		width: 20.31%;
+		padding: 1em
+	}
+	.l-kenkan .kenshinFlow.fourColumn .flowArrow {
+		width: 6.12%
+	}
+	.l-kenkan_support .intro {
+		overflow: hidden
+	}
+	.l-kenkan_support .intro .flL,	.l-kenkan_support .intro .flR {
+		width: 45.13%
+	}
+	.l-kenkan_support .fukui {
+		padding: 2em 3em;
+		border: 2px solid #EDEEE8;
+		white-space: nowrap;
+		text-align: center
+	}
+	.l-kenkan_support .plus {
+		min-width: 50px
+	}
+	.l-kenkan_support .ijou {
+		padding: 1em;
+		border: 2px solid #EDEEE8;
+		white-space: nowrap
+	}
+	.l-kenkan_support .hokenshidou .column {
+		width: 31.3%;
+		margin-left: 0
+	}
+	.l-kenkan_1day .l-kenkan_support .hokenshidou .column .colorHeader,	.l-kenkan_ippan .l-kenkan_support .hokenshidou .column .colorHeader,	.l-kenkan_koukuu .l-kenkan_support .hokenshidou .column .colorHeader,	.l-kenkan_nyugan .l-kenkan_support .hokenshidou .column .colorHeader,	.l-kenkan_option .l-kenkan_support .hokenshidou .column .colorHeader,	.l-kenkan_stay .l-kenkan_support .hokenshidou .column .colorHeader {
+		margin-bottom: 0;
+		text-align: center
+	}
+	.l-kenkan_support .hokenshidou .column .headlineBrown,	.l-kenkan_support .hokenshidou .column .l-kenkan_1day .colorHeader,	.l-kenkan_support .hokenshidou .column .l-kenkan_ippan .colorHeader,	.l-kenkan_support .hokenshidou .column .l-kenkan_koukuu .colorHeader,	.l-kenkan_support .hokenshidou .column .l-kenkan_nyugan .colorHeader,	.l-kenkan_support .hokenshidou .column .l-kenkan_option .colorHeader,	.l-kenkan_support .hokenshidou .column .l-kenkan_stay .colorHeader {
+		margin-bottom: 0;
+		text-align: center
+	}
+	.l-kenkan_1day .l-kenkan_support .hokenshidou .column .colorHeader+.kaizenBox,	.l-kenkan_ippan .l-kenkan_support .hokenshidou .column .colorHeader+.kaizenBox,	.l-kenkan_koukuu .l-kenkan_support .hokenshidou .column .colorHeader+.kaizenBox,	.l-kenkan_nyugan .l-kenkan_support .hokenshidou .column .colorHeader+.kaizenBox,	.l-kenkan_option .l-kenkan_support .hokenshidou .column .colorHeader+.kaizenBox,	.l-kenkan_stay .l-kenkan_support .hokenshidou .column .colorHeader+.kaizenBox {
+		border-top: 0
+	}
+	.l-kenkan_support .hokenshidou .column .headlineBrown+.kaizenBox,	.l-kenkan_support .hokenshidou .column .l-kenkan_1day .colorHeader+.kaizenBox,	.l-kenkan_support .hokenshidou .column .l-kenkan_ippan .colorHeader+.kaizenBox,	.l-kenkan_support .hokenshidou .column .l-kenkan_koukuu .colorHeader+.kaizenBox,	.l-kenkan_support .hokenshidou .column .l-kenkan_nyugan .colorHeader+.kaizenBox,	.l-kenkan_support .hokenshidou .column .l-kenkan_option .colorHeader+.kaizenBox,	.l-kenkan_support .hokenshidou .column .l-kenkan_stay .colorHeader+.kaizenBox {
+		border-top: 0
+	}
+	.l-kenkan_support .hokenshidou .column.pr {
+		padding-right: 2.996%
+	}
+	.l-kenkan_support .hokenshidou .column.last .kaizenBox {
+		padding: 1em
+	}
+	.l-kenkan_support .hokenshidou .kaizenBox {
+		border: 2px solid #EDEEE8;
+		padding: 1em 2em
+	}
+	.l-kenkan_support .hokenshidou .kaizenBox.fz9 {
+		padding: .5em 0
+	}
+	.l-kenkan_support .hokenshidou .bgArrow {
+		position: relative
+	}
+	.l-kenkan_support .hokenshidou .bgArrow p {
+		position: absolute
+	}
+	.l-kenkan_support .hokenshidou .bgArrow .houhou {
+		top: -20%;
+		left: 0;
+		color: #45AF3E
+	}
+	.l-kenkan_support .hokenshidou .bgArrow .kikan {
+		top: 27%;
+		left: 35%;
+		color: #fff
+	}
+	.l-kenkan_floormap .photo {
+		width: 36.88%
+	}
+	.l-kenkan_floormap .photo img {
+		margin-bottom: .3em
+	}
+	.l-kenkan_floormap .map {
+		position: relative;
+		width: 49.62%
+	}
+	.l-kenkan_floormap .map .note {
+		position: absolute;
+		bottom: 6%;
+		left: -1%;
+		width: 35%
+	}
+	.l-kenkan_access .text {
+		width: 38.46%
+	}
+	.l-kenkan_access .text .iconArea {
+		float: left;
+		width: 7.58%;
+		padding-top: .7em
+	}
+	.l-kenkan_access .text .infoArea {
+		float: right;
+		width: 87.93%
+	}
+	.l-kenkan_access .text .headline02 {
+		font-size: 1.46em;
+		margin-bottom: 0
+	}
+	.l-kenkan_access .map {
+		width: 59.88%
+	}
+	.l-kenkan_faq .answer p,	.l-kenkan_faq .question p {
+		display: inline-block;
+		padding-left: .5em;
+		box-sizing: border-box;
+		width: 91%
+	}
+	.l-kenkan_faq .answer p img,	.l-kenkan_faq .question p img {
+		width: auto;
+		margin-top: .5em
+	}
+	.l-kenkan_faq .answer:before {
+		display: inline-block;
+		padding: .26em .72em;
+		border-radius: 100%;
+		color: #fff;
+		box-sizing: border-box
+	}
+	.l-kenkan_faq .question {
+		margin-bottom: 1em
+	}
+	.l-kenkan_faq .question:before {
+		display: inline-block;
+		padding: .26em .72em;
+		border-radius: 100%;
+		color: #fff;
+		box-sizing: border-box
+	}
+	.l-kenkan_faq .question p {
+		font-size: 1.31em;
+		display: inline-block;
+		vertical-align: bottom;
+		line-height: 1.4
+	}
+	.l-kenkan_faq .question:before {
+		content: 'Q';
+		background: #C9C9CB;
+		vertical-align: top
+	}
+	.l-kenkan_faq .answer:before {
+		content: 'A';
+		background: #43B03D;
+		vertical-align: top
+	}
+	.l-kenkan_faq .flL,	.l-kenkan_faq .flR {
+		width: 45.75%
+	}
+	.l-kenkan_faq .flL .block,	.l-kenkan_faq .flR .block {
+		border-bottom: 1px solid;
+		padding: 1em 0 1.5em
+	}
+	.l-kenkan_faq .flL .block:first-child,	.l-kenkan_faq .flR .block:first-child {
+		border-top: 1px solid
+	}
+	.l-kenkan_yoyaku .flL,	.l-kenkan_yoyaku .flR {
+		width: 46.15%
+	}
+	.l-kenkan_yoyaku .contactBox {
+		border: 2px solid #45AF3E;
+		padding: 1em 0;
+		text-align: center
+	}
+	.l-kenkan_yoyaku .contactBox .dib {
+		text-align: left
+	}
+	.l-kenkan_yoyaku .contactBox .tel {
+		color: #44AF3D
+	}
+	.l-kenkan_yoyaku .contactBox .tel img {
+		margin-right: .1em;
+		height: 2.2em;
+		vertical-align: middle
+	}
+	.l-kenkan_yoyaku .contactBox .tel .telNumber {
+		font-size: 2.17em;
+		vertical-align: middle
+	}
+	.l-kenkan_yoyaku .contactBox .tel .telNote {
+		font-size: 1.66em;
+		vertical-align: middle;
+		margin-right: -.5em;
+		margin-left: -.5em
+	}
+	.l-kenkan_yoyaku .indent1 {
+		padding-left: 1em
+	}
+	.categoryIcon {
+		width: 4.77%
+	}
+	.bgArrowFlow {
+		position: relative
+	}
+	.bgArrowFlow .bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1
+	}
+	.bgArrowFlow .innerText {
+		position: absolute;
+		top: 25%;
+		left: 20%;
+		z-index: 2
+	}
+	.l-kenkan_stay_shinzou .about .flL {
+		width: 55.59%
+	}
+	.l-kenkan_stay_shinzou .about .flR {
+		width: 43%
+	}
+	.l-kenkan_stay_shinzou .about .bgArrowFlow {
+		width: 32.45%
+	}
+	.l-kenkan_stay_shinzou .about .shinzoukensa .innerText {
+		top: 29%;
+		left: 9%
+	}
+	.l-kenkan_stay_shinzou .about .shihyou .innerText {
+		top: 19%;
+		left: 9%
+	}
+	.l-kenkan_stay_shinzou .about .shihyou .text {
+		padding-top: 1em;
+		padding-bottom: 1em
+	}
+	.l-kenkan_option .optionsTable .cell {
+		width: 31.29%
+	}
+	.l-kenkan_option .optionsTable .cell.sepalate {
+		width: 3.06%;
+		border: 0;
+		padding: 0
+	}
+	#footer {
+		width: 100%;
+		border-top: 1px solid #BAB8B9;
+		font-size: .83em
+	}
+	#footer .inner {
+		width: 94%;
+		max-width: 1600px;
+		min-width: 960px;
+		margin: 0 auto;
+		padding: 1em 3% 0
+	}
+	#footerMenu {
+		float: left
+	}
+	#footerMenu ul {
+		overflow: hidden;
+		border-left: 1px solid #9C9A9A
+	}
+	#footerMenu li {
+		float: left
+	}
+	#footerMenu li a {
+		padding: 0 10px;
+		border-right: 1px solid #9C9A9A
+	}
+	#copyright {
+		float: right
+	}
+}
+table {
+	width: 100%
+}
+table th {
+	background: #B4B5B4;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #221814
+}
+.l-kenkan_1day table th .colorHeader,.l-kenkan_ippan table th .colorHeader,.l-kenkan_koukuu table th .colorHeader,.l-kenkan_nyugan table th .colorHeader,.l-kenkan_option table th .colorHeader,.l-kenkan_stay table th .colorHeader {
+	line-height: 1.7
+}
+table th .fz10,table th .hilight,table th .l-kenkan_1day .colorHeader,table th .l-kenkan_ippan .colorHeader,table th .l-kenkan_koukuu .colorHeader,table th .l-kenkan_nyugan .colorHeader,table th .l-kenkan_option .colorHeader,table th .l-kenkan_stay .colorHeader {
+	line-height: 1.7
+}
+table td {
+	padding: .1em 1em;
+	border: 1px solid #221814
+}
+table .w1e {
+	width: 1em
+}
+.l-kenkan .kenshinFlow .intro {
+	border: 2px solid #5876b9;
+	background: #DFEAF6;
+	padding: .5em 2em
+}
+.l-kenkan .kenshinFlow .intro span {
+	margin-right: 2em
+}
+.l-kenkan .kenshinFlow .flowBox {
+	border: 2px solid;
+	padding: 1em 2em;
+	box-sizing: border-box;
+	vertical-align: middle;
+	font-size: .92em
+}
+.l-kenkan .kenshinFlow .flowArrow {
+	vertical-align: middle
+}
+.l-kenkan .kenshinFlow .doubleRow .flowBox {
+	box-sizing: normal;
+	vertical-align: middle
+}
+.l-kenkan .kenshinFlow .doubleRow .arrow {
+	vertical-align: middle
+}
+.l-kenkan_stay .colorHeader {
+	background: #5771A6;
+	color: #fff
+}
+.l-kenkan_stay .hilight {
+	color: #5771A6
+}
+.l-kenkan_stay .kenshinFlow .flowBox {
+	border-color: #5771A6
+}
+.l-kenkan_stay .headline02 {
+	color: #5771A6
+}
+.l-kenkan_stay hgroup.bottomBorder {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ACBBDB
+}
+.l-kenkan_stay .bgHilight {
+	background: #deeaf7
+}
+.l-kenkan_stay_shinzou .about .text {
+	padding-left: 1em
+}
+.l-kenkan_stay_shinzou .about .text li {
+	line-height: 2
+}
+.l-kenkan_1day .colorHeader {
+	background: #F7C53A;
+	color: #fff
+}
+.l-kenkan_1day .hilight {
+	color: #F7C53A
+}
+.l-kenkan_1day .kenshinFlow .flowBox {
+	border-color: #F7C53A
+}
+.l-kenkan_1day .btn a {
+	display: inline-block;
+	padding: .1em 4.7em;
+	background: #efeee7
+}
+.l-kenkan_ippan .colorHeader {
+	background: #51AD4C;
+	color: #fff
+}
+.l-kenkan_ippan .hilight {
+	color: #51AD4C
+}
+.l-kenkan_ippan .kenshinFlow .flowBox {
+	border-color: #51AD4C
+}
+.l-kenkan_nyugan .colorHeader {
+	background: #E16F9F;
+	color: #fff
+}
+.l-kenkan_nyugan .hilight {
+	color: #E16F9F
+}
+.l-kenkan_nyugan .kenshinFlow .flowBox {
+	border-color: #E16F9F
+}
+.l-kenkan_koukuu .colorHeader {
+	background: #1BB8DE;
+	color: #fff
+}
+.l-kenkan_koukuu .hilight {
+	color: #1BB8DE
+}
+.l-kenkan_koukuu .kenshinFlow .flowBox {
+	border-color: #1BB8DE
+}
+.l-kenkan_koukuu .bgHilight {
+	background: #eaf6fd
+}
+.l-kenkan_option .colorHeader {
+	background: #9E9F9E;
+	color: #fff
+}
+.l-kenkan_option .hilight {
+	color: #9E9F9E;
+	border-bottom: 1px solid #9e9f9e;
+}
+.l-kenkan_option .kenshinFlow .flowBox {
+	border-color: #9E9F9E
+}
+.l-kenkan_option .optionsTable .cell {
+	box-sizing: border-box;
+	border: 2px solid #9E9F9E;
+	padding: 1em 1.5em 2.5em;
+	position: relative
+}
+.l-kenkan_option .optionsTable .cell.empty {
+	border-color: transparent;
+}
+.l-kenkan_option .optionsTable .cell.sepalate {
+	width: 3.06%;
+	border: 0;
+	padding: 0
+}
+.l-kenkan_option .optionsTable .small {
+	font-size: .7em
+}
+.l-kenkan_option .optionsTable .opPri {
+	color: #9e9f9e;
+	text-align: right;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.l-kenkan_option .optionsTable .opPri span {
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 131%;
+}
+.l-kenkan_option .price {
+	width: 20%;
+	text-align: right;
+	padding-right: 1.5em;
+	white-space: nowrap
+}
+.l-kenkan_top #mainVisual {
+	overflow: hidden;
+	margin-bottom: 2em;
+	position: relative
+}
+.l-kenkan_top #mainVisual .slides {
+	position: absolute
+}
+.l-kenkan_top #mainVisual li {
+	position: relative;
+	float: left
+}
+.l-kenkan_top #mainVisual li .link {
+	position: absolute;
+	font-size: 128%;
+	white-space: nowrap
+}
+.l-kenkan_top #mainVisual li .link a {
+	color: #fff;
+	vertical-align: middle
+}
+.l-kenkan_top #mainVisual li .link a img {
+	height: 1em;
+	vertical-align: middle;
+	margin-right: .2em
+}
+.l-kenkan_top #mainVisual .slide_stay .link {
+	top: 62.5%;
+	left: 63.9%
+}
+.l-kenkan_top #mainVisual .slide_1day .link {
+	top: 63%;
+	left: 59.6%
+}
+.l-kenkan_top #mainVisual .slide_ippan .link {
+	top: 59%;
+	left: 63.9%
+}
+.l-kenkan_top #mainVisual .slide_nyugan .link {
+	top: 59%;
+	left: 58%
+}
+.l-kenkan_top #mainVisual .slide_koukuu .link {
+	top: 62.5%;
+	left: 62.5%
+}
+.l-kenkan_top #mainVisual .slide_option .link {
+	top: 64%;
+	left: 63.5%
+}
+.l-kenkan_premium_bg {
+	background: #000!important
+}
+.l-kenkan_premium {
+	background: #000!important;
+	color: #fff;
+	padding-top: 100px!important;
+	overflow: hidden
+}
+.l-kenkan_premium__title {
+	font-weight: 700;
+	color: #ddb078;
+	font-size: 16px;
+	text-align: center;
+	padding: .7em 0;
+	line-height: 1.2
+}
+.l-kenkan_premium__title--bordered {
+	border: 1px solid;
+	margin-bottom: 1em
+}
+.l-kenkan_premium__open_time {
+	font-size: 21px;
+	font-weight: 700
+}
+.l-kenkan_premium__section {
+	margin-bottom: 90px
+}
+.l-kenkan_premium__doctor {
+	width: 69.5%;
+	margin: 60px auto
+}
+.l-kenkan_premium__doctor-image {
+	float: left;
+	width: 26%
+}
+.l-kenkan_premium__doctor-text {
+	float: right;
+	width: 68%;
+	padding-top: 1em
+}
+.l-kenkan_premium__doctor-name {
+	font-size: 16px;
+	margin-bottom: 14px
+}
+.l-kenkan_premium__doctor-name span {
+	font-size: 12px;
+	margin-right: 1em
+}
+.l-kenkan_premium__border-box {
+	color: #ddb078;
+	display: table;
+	width: 100%
+}
+.l-kenkan_premium__border-box-title {
+	display: table-cell;
+	border: 1px solid;
+	font-size: 14px;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: 700;
+	line-height: 1.5;
+	padding: .5em 1em
+}
+.l-kenkan_premium__border-box-body {
+	font-size: 13px;
+	display: table-cell;
+	border: 1px solid;
+	border-left: none;
+	padding: .5em 1.8em;
+	height: 5em;
+	vertical-align: middle
+}
+.l-kenkan_yoyaku .pdf_box{
+	display: inline-block;
+	max-width: 15em;
+	float: left;
+}
+.l-kenkan_yoyaku .pdf_box:not(:last-child){
+	margin-right: 20px;
+}
+@media screen and (min-width: 480px) {
+	#globalNavi .mainNavi li {
+		width: 7.2%;
+	}
+	#globalNavi .mainNavi li img {
+		width: 60%;
+	}
+	#globalNavi .mainNavi li span {
+		font-size: inherit;
+		font-feature-settings: 'palt';
+	}
+	.tableLayout--nou {
+		height: 11em;
+		padding-top: .5em;
+	}
+}
+.ryui-list {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+/*------------------------------
+	clearfix
+------------------------------*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	font-size:0;
+	height: 0;
+	visibility:hidden;
+	clear: both;
+}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display:block;}
+
+/*------------------------------
+	上書き用スタイル
+------------------------------*/
+.dn {display: none !important;}
+.di {display: inline !important;}
+.dib {display: inline-block !important;}
+.db {display: block !important;}
+
+.fwb {font-weight: bold !important;}
+
+.tal {text-align: left !important;}
+.tac {text-align: center !important;}
+.tar {text-align: right !important;}
+
+.tdn {text-decoration: none !important;}
+.tdu {text-decoration: underline !important;}
+
+.vat {vertical-align: top !important;}
+.vam {vertical-align: middle !important;}
+.vab {vertical-align: bottom !important;}
+
+.mt0 {margin-top: 0 !important;}
+.mt5 {margin-top: 5px !important;}
+.mt10 {margin-top: 10px !important;}
+.mt15 {margin-top: 15px !important;}
+.mt20 {margin-top: 20px !important;}
+.mt25 {margin-top: 25px !important;}
+.mt30 {margin-top: 30px !important;}
+.mt35 {margin-top: 35px !important;}
+.mt40 {margin-top: 40px !important;}
+.mt45 {margin-top: 45px !important;}
+.mt50 {margin-top: 50px !important;}
+.mt60 {margin-top: 60px !important;}
+.mt70 {margin-top: 70px !important;}
+.mt80 {margin-top: 80px !important;}
+.mt90 {margin-top: 90px !important;}
+.mt100 {margin-top: 100px !important;}
+
+.mr0 {margin-right: 0 !important;}
+.mr5 {margin-right: 5px !important;}
+.mr10 {margin-right: 10px !important;}
+.mr15 {margin-right: 15px !important;}
+.mr20 {margin-right: 20px !important;}
+.mr25 {margin-right: 25px !important;}
+.mr30 {margin-right: 30px !important;}
+.mr35 {margin-right: 35px !important;}
+.mr40 {margin-right: 40px !important;}
+.mr45 {margin-right: 45px !important;}
+.mr50 {margin-right: 50px !important;}
+.mr60 {margin-right: 60px !important;}
+.mr70 {margin-right: 70px !important;}
+.mr80 {margin-right: 80px !important;}
+.mr90 {margin-right: 90px !important;}
+.mr100 {margin-right: 100px !important;}
+
+.mb0 {margin-bottom: 0 !important;}
+.mb5 {margin-bottom: 5px !important;}
+.mb10 {margin-bottom: 10px !important;}
+.mb15 {margin-bottom: 15px !important;}
+.mb20 {margin-bottom: 20px !important;}
+.mb25 {margin-bottom: 25px !important;}
+.mb30 {margin-bottom: 30px !important;}
+.mb35 {margin-bottom: 35px !important;}
+.mb40 {margin-bottom: 40px !important;}
+.mb45 {margin-bottom: 45px !important;}
+.mb50 {margin-bottom: 50px !important;}
+.mb60 {margin-bottom: 60px !important;}
+.mb70 {margin-bottom: 70px !important;}
+.mb80 {margin-bottom: 80px !important;}
+.mb90 {margin-bottom: 90px !important;}
+.mb100 {margin-bottom: 100px !important;}
+
+.ml0 {margin-left: 0 !important;}
+.ml5 {margin-left: 5px !important;}
+.ml10 {margin-left: 10px !important;}
+.ml15 {margin-left: 15px !important;}
+.ml20 {margin-left: 20px !important;}
+.ml25 {margin-left: 25px !important;}
+.ml30 {margin-left: 30px !important;}
+.ml35 {margin-left: 35px !important;}
+.ml40 {margin-left: 40px !important;}
+.ml45 {margin-left: 45px !important;}
+.ml50 {margin-left: 50px !important;}
+.ml60 {margin-left: 60px !important;}
+.ml70 {margin-left: 70px !important;}
+.ml80 {margin-left: 80px !important;}
+.ml90 {margin-left: 90px !important;}
+.ml100 {margin-left: 100px !important;}
+
+.bdn {border: none !important;}
+.bdtn {border-top: none !important;}
+.bdrn {border-right: none !important;}
+.bdbn {border-bottom: none !important;}
+.bdln {border-left: none !important;}
+
+.ovh {overflow: hidden !important;}
+
+.posr {position: relative !important;}
+
+.zi1 {z-index: 1 !important;}
+
+.curp {cursor: pointer !important;}
+
+
+/* 1911 SP表示調整 */
+@media screen and (max-width: 480px) {
+	.l-kenkan_top #header #globalNavi,
+	.l-kenkan_top #header .brand {
+		display: block;
+	}
+	.l-kenkan_top #header .closeBtn {
+		display: none;
+	}
+}

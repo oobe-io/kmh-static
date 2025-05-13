@@ -1,0 +1,258 @@
+@media screen and (max-width: 481px){
+  .fz14r{
+    font-size: 1.4rem !important;
+  }
+
+  .pcviwe{
+    display:none;
+  }
+
+  .dl_button {
+    float: center;
+  }
+
+  .mtb5p{
+    margin: 5% 0 !important;
+  }
+
+  .uicc_type_comment-title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center !important;
+    color: white;
+    background: #a6aaa9;
+    padding: .3em;
+  }
+
+  .uicc_type_comment-body {
+    width: 100%;
+    padding-top: .5em;
+    margin-bottom: 2em;
+  }
+
+  .mt2p{
+    margin-top: 2%;
+  }
+
+  .wid-control{
+    width:100%
+  }
+  
+  .wid-control2{
+    width:40%;
+    margin:2% 2% !important;
+    }
+  
+  .wid-control2 a{
+    padding:5px 20px !important;
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 480px){
+  .spviwe{
+    display: none;
+  }
+
+  .dl_button {
+    float: right;
+  }
+
+  .mtb2p{
+    margin: 2% 0 !important;
+  }
+
+  .uicc_type_comment-title {
+    float: left;
+    width: 10%;
+    text-align: center !important;
+    color: white;
+    background: #a6aaa9;
+    padding: .5em;
+  }
+
+  .uicc_type_comment-body {
+    float: right;
+    width: 85%;
+    padding-top: .5em;
+    margin-bottom: 2em;
+  }
+  
+  .wid-control2{
+    width:15%;
+    margin: 3% 2% 3% 0;
+    }
+  
+  .wid-control2 a{
+    padding:5px 20px !important;
+    text-align: center !important;
+  }
+}
+
+
+.page_header_button {
+  text-align: center !important;
+  margin-top: .5em;
+}
+.page_header_button a {
+  border: 1px solid;
+  padding: .5em 1em;
+  text-align: center;
+  display: inline-block;
+}
+.page_header_button img {
+  width: 30px !important;
+  vertical-align: middle;
+}
+
+.dpc_text {
+  float: left;
+  width: 66%;
+}
+
+.lead_button {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.button.pdf_button {
+  display: block;
+  background: #eb5e5a;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.button.pdf_button + .button.pdf_button{
+  margin-top: 5px;
+}
+.button.pdf_button a {
+  padding: 5px 1.5em;
+}
+.button.pdf_button + .button.pdf_button {
+  margin-top: 5px;
+}
+.button {
+  display: inline-block;
+  background: #a6aaa9;
+}
+.button a {
+  color: white;
+  padding: 5px 40px;
+}
+.table_title {
+  font-size: 1.5em;
+  line-height: 2;
+}
+.div-title-hist {
+  background: #a6aaa9;
+  color: #fff;
+  padding: 8px 13px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.hist_list dt {
+  clear: left;
+  float: left;
+  margin-left: 1em;
+  margin-right: 2em;
+  font-size: 1.08rem;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 1.8;
+}
+.hist_list dd {
+  float: left;
+  font-size: 1.08rem;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 1.8;
+}
+
+#contents .borderTable tr:first-child ~ tr th {
+  background: none;
+  color: inherit;
+}
+#contents .borderTable tr:first-child th,
+#contents .borderTable tr.header-row th {
+  background: #51a7f5 !important;
+  color: #ffffff !important;
+  text-align: center;
+  vertical-align: middle
+}
+#contents .borderTable th,
+#contents .borderTable.center td {
+  text-align: left;
+}
+#contents .borderTable.center td.number-cell {
+  text-align: center;
+}
+
+.uicc_type_comment-wrapper {
+  overflow: hidden;
+  border-top: 2px solid;
+}
+
+.comment {
+  font-size: 1.08rem;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 1.8;
+}
+
+/* clinical_departments_top5 */
+#clinical_departments_top5 table th:nth-child(1) {
+  width: 13.717693837%;
+}
+#clinical_departments_top5 table th:nth-child(2) {
+  width: 36.7793240557%;
+}
+#clinical_departments_top5 table th:nth-child(3) {
+  width: 6.8588469185%;
+}
+#clinical_departments_top5 table th:nth-child(4) {
+  width: 8.3499005964%;
+}
+#clinical_departments_top5 table th:nth-child(5) {
+  width: 8.3499005964%;
+}
+#clinical_departments_top5 table th:nth-child(6) {
+  width: 7.3558648111%;
+}
+#clinical_departments_top5 table th:nth-child(7) {
+  width: 8.449304175%;
+}
+#clinical_departments_top5 table th:nth-child(8) {
+  width: 10.0397614314%;
+}
+
+
+/* ope_top5_tbl */
+#ope_days_top5 table th:nth-child(1) {
+  width: 9.1451292247%;
+}
+#ope_days_top5 table th:nth-child(2) {
+  width: 33.9960238569%;
+}
+#ope_days_top5 table th:nth-child(3) {
+  width: 7.9522862823%;
+}
+#ope_days_top5 table th:nth-child(4) {
+  width: 9.7415506958%;
+}
+#ope_days_top5 table th:nth-child(5) {
+  width: 9.7415506958%;
+}
+#ope_days_top5 table th:nth-child(6) {
+  width: 7.9522862823%;
+}
+#ope_days_top5 table th:nth-child(7) {
+  width: 9.7415506958%;
+}
+#ope_days_top5 table th:nth-child(8) {
+  width: 11.6302186879%;
+}
+
+.mt5p{
+  margin-top: 5% !important;
+}
+

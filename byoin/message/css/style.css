@@ -1,0 +1,10 @@
+@media screen and (max-width: 481px){
+    .fz10{
+        font-size:1.6rem !important;
+    }
+}
+
+.ptb2p{
+    padding: 2% 0 !important;
+
+}

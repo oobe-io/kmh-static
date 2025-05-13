@@ -1,0 +1,158 @@
+.l-shiryou-saishin {
+    padding-top: 0;
+    margin-top: -22px;
+}
+@media screen and (min-width: 480px) {
+    .l-shiryou-saishin #mainVisual {
+        position: relative;
+        padding-left: 0;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 70px;
+    }
+    .l-shiryou-saishin #mainVisual .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        width: 41%;
+        padding-top: 8%;
+        left: .4%;
+        background: none;
+        text-align: left;
+        height: 100%;
+    }
+    .l-shiryou-saishin #mainVisual .text img {
+        height: auto;
+    }
+    .l-shiryou-saishin #mainVisual .mainVisual_text  {
+        bottom: 0;
+    }
+    .l-shiryou-saishin #mainVisual .mainVisual_text p {
+        line-height: 2.2;
+    }
+    .l-shiryou-saishin #mainVisual .mainVisual_text p.mainVisual_text-01 {
+        line-height: 1.5;
+        margin-bottom: 1em;
+        font-size: 1.3rem !important;
+    }
+    .mainVisual_text_date {
+        font-size: 1.4rem !important;
+        line-height: 1 !important;
+    }
+
+    #mainVisual .text .dataTitle {
+        margin-bottom: 2px;
+        margin-top: 45%;
+    }
+    #mainVisual .text .data {
+        margin-right: 0;
+        font-weight: bold;
+    }
+    .l-shiryou-saishin #mainVisual .text .bigger {
+        font-size: 5.2rem;
+        letter-spacing: -.02em;
+        font-weight: normal;
+    }
+    .l-shiryou-saishin #mainVisual .image {
+        position: relative;
+        right: 0;
+        width: 100%;
+    }
+    .contentBox .title span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .contentBox li {
+        padding-left: 1em;
+        text-indent: -1em;
+    }
+}
+.contentBox--full {
+    width: 100% !important;
+    float: none;
+}
+.sub-01 {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+.sub-01 > div:first-child {
+    width: 75%;
+}
+.sub-01 > div:last-child {
+    width: 25%;
+    margin-top: -2%;
+}
+.sub-01 figure {
+    text-align: center;
+}
+.sub-01 img {
+    width: 50% !important;
+}
+.red {
+    color: red;
+}
+.borderTable thead td {
+    width: 33%;
+}
+.borderTable + .borderTable {
+    margin-top: -1px;
+    margin-bottom: 1em;
+}
+.sub-02 {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-02 div:first-child {
+    width: 62%;
+}
+.sub-02 div:last-child {
+    width: 35%;
+}
+
+.l-shiryou-saishin .contentBox .title {
+    border-bottom: none;
+    margin-bottom: 1em;
+    letter-spacing: .05em;
+    border-bottom: 1px solid;
+}
+
+@media screen and (max-width: 481px) {
+    #mainVisual .text {
+        position: relative;
+        z-index: 2;
+        margin-bottom: 0 !important;
+        margin-top: 2em;
+    }
+    #mainVisual .mainVisual_text {
+        margin-top: 2em;
+    }
+    #mainVisual .image img {
+        position: relative;
+        z-index: 1;
+        margin-top: -30vw;
+        height: 80vmin;
+        object-fit: cover;
+        object-position: 88% 50%;
+    }
+    .sub-01,
+    .sub-02 {
+        display: block;
+    }
+    .sub-01 > div,
+    .sub-02 > div {
+        width: 100% !important;
+    }
+    .sub-01 > div:last-child,
+    .sub-02 > div:last-child {
+        margin-top: 1em;
+    }
+}
+
+.l-shiryou-saishin .backBtn {
+    top: 30px;
+}

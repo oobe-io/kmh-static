@@ -1,0 +1,140 @@
+
+.c-headline {
+    background: #C9C9CA;
+    color: #fff;
+    text-align: center;
+    padding: .2em;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.c-headline--white {
+    background: #fff;
+    border: 1px solid #b3b3b3;
+    color: #000000;
+    text-align: center;
+    padding: .2em;
+    font-size: 1.5em;
+}
+.profile-header .list {
+    font-size: 2.34rem;
+}
+.valve_image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 40px;
+}
+.uketsuke {
+    background: #eeeee6;
+    padding: 1.5em;
+}
+.uketsuke__title {
+    background: #c9c9ca;
+    color: #ffffff;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.video {
+    width: 100%;
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+    .l-shiryou-saishin #mainVisual .image {
+        right: 0;
+    }
+    .column_left {
+        position: relative;
+        float: left;
+        width: 27%;
+    }
+    .column_right {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        width: 66.5%;
+    }
+    .valve_image {
+        width: 20%;
+    }
+
+    .video {
+        margin-bottom: 70px;
+    }
+
+    .profile-header .list>img {
+        width: 34px !important;
+    }
+
+    .description {
+        line-height: 1.5 !important;
+    }
+    .name {
+        font-size: 1.6em;
+    }
+
+    .doctor {
+        float: left;
+        width: 49.5%;
+        margin-bottom: 4em;
+    }
+    .doctor:nth-child(2n) {
+        float: right;
+    }
+    .doctor .name {
+        padding-bottom: 2px;
+        border-bottom: 1px solid #d8d8d8;
+        margin-bottom: 7px;
+    }
+    .doctor li {
+        line-height: 1.5 !important;
+    }
+    .doctor__image {
+        float: left;
+        width: 48%;
+    }
+    .doctor__text {
+        float: right;
+        width: 50%;
+    }
+
+    .staff {
+        float: left;
+        width: 19%;
+        margin-right: 8%;
+    }
+    .staff p {
+        text-align: center !important;
+    }
+    .staff:last-child {
+        margin-right: 0;
+    }
+
+    .staff_list {
+        border-top: 1px solid #d0d0d0;
+        border-bottom: 1px solid #d0d0d0;
+        padding-top: .8em;
+        padding-bottom: .8em;
+    }
+    .staff_list img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100px !important;
+    }
+    .staff_list p {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+/*    #img_sub04 {
+        position: absolute;
+        width: auto !important;
+        height: 100%;
+        max-width: none;
+        right: 0;
+    }*/
+    #img_sub04 {
+        background: url(../images/img_sub_04.jpg) center center no-repeat;
+        background-size: cover;
+    }
+}

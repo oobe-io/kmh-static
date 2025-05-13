@@ -1,0 +1,22 @@
+@media screen and (min-width: 480px){
+    .left{
+        float:left;
+    }
+}
+
+@media screen and (max-width: 481px){
+    .style{
+        float: none;
+    }
+    
+    .mt10px{
+    margin-top: 10px;
+    }
+}
+
+
+
+.test{
+    font-size: 15px !important;
+    text-align: left !important;
+}

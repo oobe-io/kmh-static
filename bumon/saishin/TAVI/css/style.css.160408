@@ -1,0 +1,30 @@
+@media screen and (min-width: 480px) {
+    .l-shiryou-saishin #mainVisual {
+        padding-left: 0;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    .l-shiryou-saishin #mainVisual .text {
+        width: 25.4110613%;
+        padding-top: 0;
+        float: left;
+    }
+    .l-shiryou-saishin #mainVisual .image {
+        position: relative;
+        float: right;
+        right: 0;
+        top: 0;
+        width: 66.5171898%;
+        z-index: 0;
+    }
+    #mainVisual .text .data {
+        margin-right: 0;
+        font-weight: bold;
+    }
+    .l-shiryou-saishin #mainVisual .text .bigger {
+        font-size: 3.5em;
+        letter-spacing: -.02em;
+        font-weight: normal;
+    }
+}

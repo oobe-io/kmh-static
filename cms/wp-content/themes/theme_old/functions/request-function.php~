@@ -1,0 +1,50 @@
+<?php
+require_once(dirname( __FILE__ ) . '/../../../wp-load.php');
+
+// 申込データの削除
+// 条件：パスワード一致且つ申込期間外
+function post_del($postid)
+{
+	global $wpdb;
+	$user = wp_get_current_user();
+	if ( !wp_check_password( $_POST['user_pass'], $user->user_pass, $user->ID ) ) {
+		throw new Exception("パスワードが正しくありません。");
+	}
+	
+	$today = current_time("Y/m/d H:i");
+	$start = get_field('seminar-start',$postid);
+	$end = get_field('seminar-end',$postid);
+
+	if(strtotime($today) >= strtotime("$start 00:00") && strtotime("$end 23:59") >= strtotime($today)){
+		throw new Exception("申込期間中のため、申込データは削除できません。");
+	}
+	
+	$another_db = new wpdb(DB_USER, DB_PASSWORD, DB_NAME . '2', DB_HOST);
+	$another_db->delete( 't_seminar', array( 'post_id' => $postid ) );
+}
+
+// 投稿一覧生成用取得
+// ※申込データが存在している講座を対象とするため
+// 戻り値は投稿IDリスト
+function getRequestDataList()
+{
+	global $wpdb;
+	$postlist = array();
+	
+	$link = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME . '2');
+	if (mysqli_connect_errno()) {
+		throw new Exception('接続失敗です。'.mysqli_error());
+	}
+
+	$db_rows = mysqli_query($link, 'SELECT post_id FROM  t_seminar');
+	if (!$db_rows) {
+		return $postlist;
+	}
+	
+	while ($row = mysqli_fetch_assoc($db_rows)) {
+		$postlist[] = $row['post_id'];
+	}
+
+	return $postlist;
+}
+?>

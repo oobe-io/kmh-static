@@ -1,0 +1,144 @@
+.notes-01 {
+    padding-left: 3em;
+    text-indent: -3em;
+}
+.sub-title {
+    background: #dcdddd;
+    padding: 0 .5em;
+    font-weight: bold;
+    margin-bottom: .75em;
+}
+@media screen and (min-width: 480px) {
+    .l-shiryou-saishin #mainVisual {
+        position: relative;
+        padding-left: 0;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    .l-shiryou-saishin #mainVisual .text {
+        position: absolute;
+        width: 52.263198219%;
+        padding-top: 0;
+        left: 8.4%;
+        background: none;
+        text-align: left;
+    }
+    .l-shiryou-saishin #mainVisual .text img {
+        height: auto;
+    }
+    .l-shiryou-saishin #mainVisual .mainVisual_text {
+        width: 60%;
+        padding-top: 10%;
+    }
+
+    #mainVisual .text .dataTitle {
+        margin-bottom: 2px;
+        margin-top: 45%;
+    }
+    #mainVisual .text .data {
+        margin-right: 0;
+        font-weight: bold;
+    }
+    .l-shiryou-saishin #mainVisual .text .bigger {
+        font-size: 3.5em;
+        letter-spacing: -.02em;
+        font-weight: normal;
+    }
+    .l-shiryou-saishin #mainVisual .image {
+        position: relative;
+        right: 0;
+        width: 100%;
+    }
+    .contentBox .title span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .contentBox li {
+        padding-left: 1em;
+        text-indent: -1em;
+    }
+
+    .column_left {
+        position: relative;
+        float: left;
+        width: 50%;
+    }
+    
+    .column_right {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        width: 45%;
+    }
+}
+.contentBox--full {
+    width: 100% !important;
+    float: none;
+}
+
+.l-shiryou-saishin .contentBox.profile-list {
+    width: 40.869499241%;
+}
+.l-shiryou-saishin .contentBox.profile-list .title {
+    border-bottom: none;
+    margin-bottom: .8em;
+    letter-spacing: .05em;
+}
+#main .contentBox.profile-list li {
+    line-height: 1.5;
+}
+.l-shiryou-saishin .contentBox.profile-text {
+    width: 53.869499241%;
+    padding-top: 4em;
+}
+
+.right {
+    text-align: right !important;
+}
+
+@media screen and (max-width: 481px) {
+    #mainVisual .start img {
+        width: 50%;
+    }
+    #mainVisual .image img {
+        position: relative;
+        z-index: -1;
+        margin-top: -100px;
+        height: 55vmin;
+        object-fit: cover;
+        object-position: 95% 50%;
+        margin-bottom: 50px;
+    }
+    .l-shiryou-saishin .contentBox.profile-list,
+    .l-shiryou-saishin .contentBox.profile-text {
+        width: 100%;
+        padding-top: 1em;
+    }
+
+    .sub-title {
+        background: #dcdddd;
+        padding: 0.3rem 0.5em !important;
+        font-weight: bold;
+        margin-bottom: .75em;
+    }
+}
+
+.mb15{
+    margin-bottom: 1.5rem !important;
+}
+
+.doctor_movie_box {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+}
+.doctor_movie_box iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}

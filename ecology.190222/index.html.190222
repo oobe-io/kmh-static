@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<meta name="robots" content="index, follow">
+	<title>院内緑化エコロジーガーデン|小倉記念病院</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="copyright" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta property="og:type" content="article">
+	<meta property="og:description" content="小倉記念病院は、高い専門性・緊急性のある診療、手術を要する医療を提供することが、ここ福岡・北九州（小倉）地域の住民・患者の皆様への役割と考えています。地域の医療施設が役割分担し、協力して医療を完結する「地域完結型医療」を目指します。">
+	<meta property="og:title" content="患者さんの幸せと地域医療を支える｜小倉記念病院">
+	<meta property="og:url" content="http://www.kokurakinen.or.jp/">
+	<meta property="og:image" content="http://www.kokurakinen.or.jp/images/ogimage.jpg">
+	<meta property="og:site_name" content="小倉記念病院">
+	<link rel="stylesheet" href="../common/css/style.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<script src="/common/js/jquery-1.11.1.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="../common/js/html5shiv.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="../common/js/jquery.belatedPNG.min.js"></script>
+	<script src="../common/js/jquery.backgroundSize.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<header>
+	<p id="siteLogo"><a href="/"><img src="/common/images/logo.png" alt="一般財団法人 平成紫川会 小倉記念病院"></a></p>
+	<nav id="globalNavi">
+		<ul>
+			<li class="menu01"><a href="/byoin/">病院案内</a></li>
+			<li class="menu02"><a href="/raiin/">ご来院の皆様へ</a></li>
+			<li class="menu03"><a href="/shinryou/">診療案内</a></li>
+			<li class="menu04"><a href="/shokai/">当院へのご紹介</a></li>
+			<li class="menu05"><a href="/recruit/" target="_blank">リクルート</a></li>
+			<li class="menu06"><a href="/kenkan/" target="_blank">健康管理センター</a></li>
+			<li class="menu07"><a href="/access/">アクセス</a></li>
+			<li class="menu08 sns"><a href="https://www.facebook.com/pages/小倉記念病院/703019479789510" target="_blank">記念日記</a></li>
+		</ul>
+	</nav>
+	<p id="shareBtn"><a href=""><img src="/common/images/ico_share.png" alt=""><span>シェアする</span></a></p>
+</header>
+
+<div id="contents">
+	<section id="main">
+		<div class="breadcrumbs">
+			<a href="../">ホーム</a>
+			＞
+			<strong>院内緑化エコロジーガーデン</strong>
+		</div>
+		<article>
+			<hgroup>
+				<h1 class="slim">院内緑化エコロジーガーデン</h1>
+				<small>Ecology Garden</small>
+			</hgroup>
+			<div id="mainVisual">
+				<img src="./images/img_main.jpg" alt="">
+			</div>
+			<section>
+				<div class="mb3">
+					<p class="headline01">ご来院の方々に「安らぎ」「潤い」「憩い」を。</p>
+					<p>小倉記念病院では来院された患者さんや家族の方々により良い環境、空間を提供できるようエコロジーガーデンを導入いたしました。”エコロジーガーデン”はNASAのウォルバートン博士を中心として研究されたCO2（二酸化炭素）やVOC（揮発性有機化合物）の吸収に優れ、マイナスイオン発生能力にも優れた観葉植物（エコ・プラント）と、臭気の除去能力が高く、植物の生育に効果のある活性炭や石灰岩を特殊加工した土壌（エコ土）を用いた室内緑化です。地球の環境問題とされているCO2削減に微力ながらも貢献し、患者さん・家族・近隣の方々に少しでも「安らぎ」「潤い」「憩い」を提供できればと考えております。今後の院内緑化の活動にご期待ください。</p>
+				</div>
+				<p class="bottomBorder pb10">当病院の院内緑化・エコロジーガーデンは、下記のスポンサー企業の協力のもとに維持運営を行っております。</p>
+				<div class="tableLayout bottomBorder pt1e w100p">
+					<ul class="discList cell mr10 mb1">
+						<li class="mb1 lh1-3"><i>●</i>朝日建物管理株式会社</li>
+						<li class="mb1 lh1-3"><i>●</i>株式会社アクシス</li>
+					</ul>
+					<ul class="discList cell mr10 mb1">
+						<li class="mb1 lh1-3"><i>●</i>株式会社西日本シティ銀行</li>
+						<li class="mb1 lh1-3"><i>●</i>株式会社パースジャパン</li>
+					</ul>
+					<ul class="discList cell mr10 mb1">
+						<li class="mb1 lh1-3"><i>●</i>株式会社日本旅行</li>
+						<li class="mb1 lh1-3"><i>●</i>北九親交会個人タクシー協同組合</li>
+					</ul>
+					<ul class="discList cell mb1">
+						<li class="mb1 lh1-3"><i>●</i>太陽セランド株式会社</li>
+						<li class="mb1 lh1-3"><i>●</i>北進産業株式会社</li>
+					</ul>
+				</div>
+				<p class="pt10">エコロジーガーデンの運営にご協力いただける企業様を募集しております。尚、院内のエントラスにもスポンサー企業名を掲載しておりますのでご覧ください。</p>
+			</section>
+		</article>
+	</section><!--/ #main -->
+
+	<section id="side">
+		<div id="sideMenu">
+			<ul>
+				<li><a href="/byoin/rinen/">理念</a></li>
+				<li><a href="/byoin/gaiyo/">病院概要</a></li>
+				<li><a href="/byoin/nintei/">施設認定・施設基準</a></li>
+				<li><a href="/byoin/enkaku/">当院の歩み・沿革</a></li>
+				<li><a href="/byoin/message/">院長挨拶・幹部紹介</a></li>
+				<li><a href="/byoin/nintei-senmoni/">学会認定専門医/学会等施設認定</a></li>
+			</ul>
+			<ul>
+				<li><a href="/byoin/data/">病院情報の公表</a></li>
+				<li><a href="/byoin/chiikishien/">地域医療支援病院</a></li>
+				<li><a href="/byoin/training/">臨床研修指定病院</a></li>
+				<li><a href="/byoin/gaikoku-ishi/">外国医師臨床修練指定病院</a></li>
+				<li><a href="/byoin/kyukyu/">救急告示病院</a></li>
+			</ul>
+			<ul>
+				<li><a href="/lecture/">市民公開講座・勉強会・研究会のご案内</a></li>
+				<li><a href="/kokuralive/">Live Demonstration in Kokura</a></li>
+				<li><a href="/kanjyanokai/">患者の会</a></li>
+				<li><a href="/volunteer/">ボランティア活動員について</a></li>
+				<li><a href="/ecology/">院内緑化エコロジーガーデン</a></li>
+			</ul>
+			<ul>
+				<li><a href="/press/">当院の広報物</a></li>
+				<li><a href="/gallery/" target="_blank">フォトギャラリー</a></li>
+				<li><a href="/byoin/line_at/">LINE＠</a></li>
+			</ul>
+		</div>
+		<div id="sideInfo">
+			<dl>
+				<dt>受付時間 （診察開始8:30〜）</dt>
+					<dd>新患/8:10〜11:00　再来/8:10〜11:30</dd>
+					<dd class="note">＊詳しくは各診療科案内の外来医師担当表をご確認ください。</dd>
+				<dt>休診日</dt>
+					<dd>土・日曜日、祝日、年末年始</dd>
+			</dl>
+			<p class="address">〒802-8555<br>福岡県北九州市小倉北区浅野3丁目2-1</p>
+			<p><img src="/common/images/img_side_tel.png" alt="093-511-2000（代表）"></p>
+		</div>
+	</section><!--/ #side -->
+</div><!--/ #contents -->
+
+<footer>
+	<div class="inner">
+		<div id="footerMenu">
+			<ul>
+				<li><a href="../privacy/">個人情報保護方針</a></li>
+				<li><a href="../sitemap/">サイトマップ</a></li>
+				<li><a href="/shisenkai/" target="_blank">一般財団法人 平成紫川会</a></li>
+				<li><a href="../gallery/" target="_blank">フォトギャラリー</a></li>
+				<li><a href="/common/pdf/fb_unyou.pdf" target="_blank">Facebook運用ポリシー</a></li>
+			</ul>
+		</div>
+		<p id="copyright">Copyright © 2014Kokura Kinen Hospital All rights reserved. </p>
+	</div>
+</footer>
+
+<script src="../common/js/share.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55024782-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
