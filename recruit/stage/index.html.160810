@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<meta name="robots" content="index, follow">
+	<title>働く舞台を知る|小倉記念病院</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="copyright" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta property="og:type" content="article">
+	<meta property="og:description" content="小倉記念病院は、高い専門性・緊急性のある診療、手術を要する医療を提供することが、ここ福岡・北九州（小倉）地域の住民・患者の皆様への役割と考えています。地域の医療施設が役割分担し、協力して医療を完結する「地域完結型医療」を目指します。">
+	<meta property="og:title" content="患者さんの幸せと地域医療を支える｜小倉記念病院">
+	<meta property="og:url" content="http://www.kokurakinen.or.jp/">
+	<meta property="og:image" content="http://www.kokurakinen.or.jp/images/ogimage.jpg">
+	<meta property="og:site_name" content="小倉記念病院">
+	<link rel="stylesheet" href="/common/css/recruit.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<script src="/common/js/jquery-1.11.1.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="/common/js/html5shiv.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="/common/js/jquery.belatedPNG.min.js"></script>
+	<script src="/common/js/jquery.backgroundSize.js"></script>
+	<script>
+		$(function() {
+			$(".bgStage").css({'background-size': "cover"});
+		});
+	</script>
+<![endif]-->
+</head>
+
+<body>
+
+<header>
+	<div id="siteLogo"><a href="/recruit/"><img src="/recruit/images/img_logo.png" alt=""></a></div>
+	<nav id="globalNavi">
+		<ul>
+			<li class="menu01"><a href="/recruit/">TOP</a></li>
+			<li class="menu02"><a href="/recruit/concept/">採用コンセプト</a></li>
+			<li class="menu03 current"><a href="/recruit/stage/">働く舞台を知る</a></li>
+			<li class="menu04"><a href="/recruit/saiyo/">採用を知る</a></li>
+			<li class="menu05"><a href="/recruit/event/">イベントを知る</a></li>
+			<li class="menu06"><a href="/recruit/fukurikosei/">福利厚生を知る</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="contents" class="bgStage">
+	<section id="main">
+		<div class="flR w540 pt80 ps10 mb50p bgSp">
+			<h1 class="headline01 mb1 fz14 nowrap">「安心して暮らすことができる」<br>とても幸せなことです。</h1>
+			<p class="mb2">大切な人と過ごす、一生懸命働くといった日常がある場所に、健康や命を守る医療がしっかりあるということは、安心して暮らすための要因のひとつです。医療は地域社会に欠かせないものなのです。安心して暮らすことができる、そんな幸せな地域づくりに貢献したいという思いで約100年に渡りこの小倉の地で医療を提供してきたのが私たち小倉記念病院です。これまで永く積み重ねてきた人・技術・精神・信頼といった財産を大切に、これからもずっと、そしてこれまで以上に、地域に必要とされる小倉記念病院であることを目指します。</p>
+		</div>
+	</section><!--/ #main -->
+</div><!--/ #contents -->
+
+<footer>
+	<div class="inner">
+		<div id="footerMenu">
+			<ul>
+				<li><a href="/privacy/">個人情報保護方針</a></li>
+				<li><a href="/sitemap/">サイトマップ</a></li>
+				<li><a href="http://www.shisenkai.jp/" target="_blank">一般財団法人 平成紫川会</a></li>
+				<li><a href="/gallery/" target="_blank">フォトギャラリー</a></li>
+				<li><a href="/common/pdf/fb_unyou.pdf" target="_blank">Facebook運用ポリシー</a></li>
+			</ul>
+		</div>
+		<p id="copyright">Copyright © 2014Kokura Kinen Hospital All rights reserved. </p>
+	</div>
+</footer>
+
+<script src="/common/js/share.js"></script>
+<script src="/common/js/recruit.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55024782-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

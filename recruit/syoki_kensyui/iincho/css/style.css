@@ -1,0 +1,14 @@
+@media screen and (max-width: 481px){
+    .fz11{
+        font-size: 1.4rem;
+    }
+
+    .fz14{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 480px){
+
+}
+

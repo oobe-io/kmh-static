@@ -1,0 +1,38 @@
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none !important;
+    }
+
+    .sp-colorWhite{
+        color: #fff!important;
+    }
+
+    .sp-counter{
+        display: block !important;
+        text-align: center !important;
+        padding: 10px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .fz15{
+        font-size: 1.7rem;
+    }
+
+    .fz9{
+        font-size: 1.2rem;
+    }
+
+    .fz8{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .spviwe{
+        display: none !important;
+    }
+}
+
+.mb02{
+    margin-bottom: 0.2rem;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 481px){
+    .sp-fz9{
+        font-size: 1.2rem;
+    }
+
+    .sp-bold{
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 480px){
+
+}
+

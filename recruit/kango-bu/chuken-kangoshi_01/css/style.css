@@ -1,0 +1,17 @@
+@media screen and (max-width: 481px){
+    .fz9{
+        font-size: 1.2rem;
+    }
+
+    .fz8{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 480px){
+
+}
+
+.mb02{
+    margin-bottom: 0.2rem !important;
+}

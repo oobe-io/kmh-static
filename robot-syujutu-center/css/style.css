@@ -1,0 +1,183 @@
+@media screen and (min-width: 481px) {
+    .pc-cont{
+        display: flex;
+    }  
+
+    .pc-cont2{
+        float: left;
+        width: 45%;
+        margin:0 2% 3% 2%;
+    }
+
+    .pc-cont3{
+        float: left;
+        width: 15%;
+        margin:0 0 3% 3%;
+    }
+    
+    .pc-cont4{
+        float: left;
+        width: 80%;
+        margin:0 1% 3% 1%;
+    }
+
+    .pc-cont5{
+        float:right ;
+        margin-right: 8%;
+    }
+
+    .wid-cont1{
+        width: 30%;
+    }
+     .sp-des{
+        display: none !important;
+    }
+
+    .btn--daVinci {
+        text-align: center !important;
+        font-weight: bold;
+        font-size: 17px;
+        padding: 7px 15px;
+        margin:0 auto;
+        width: 40%;
+        background: #efeee7;
+    }
+
+    .toiawaseBox .title{
+        width:8.70217%;
+        font-size:1.1666em;
+        padding:0 0.5em;
+        margin-bottom:1em ;
+      }
+
+      .tableLayout .bgw {
+        display:table-cell;
+        vertical-align:middle;
+        background:#fff;
+        width:8.70217% !important;
+        margin: 0 3%;
+      }
+}
+
+
+@media screen and (max-width: 480px) {
+    .pc-cont2{
+        margin: 0 0 10% 0 ;
+     }
+
+     .pc-cont3{
+        width: 70%;
+        margin:0 auto;
+    }
+
+    .pc-cont5{
+        text-align: center !important;
+    }
+
+    .mar-cont1{
+        margin: 0 5% 10% 5%;
+    }
+
+    .pc-des{
+        display: none !important;
+    }
+    
+    .l-shiryou-iryou .kensuuBox{
+        float: left;
+        width: 21.3346%;
+        margin-right: 4.7522%;
+        margin-bottom: 5%;
+    }
+    .headlineB br {
+        display: none;
+    }
+    .l-shiryou-iryou .mb130 {
+        margin-bottom: 20px;
+    }
+    .l-shiryou-iryou .profileWrapper {
+        display: flex;
+        white-space: nowrap;
+        padding: 0;
+    }
+    .l-shiryou-iryou .profileWrapper .profileBox {
+        margin-right: 5%;
+    }
+    .l-shiryou-iryou .profileWrapper .profileBox:last-child {
+        margin-right: 0;
+    }
+
+    .posi-cont{
+        position: relative !important;
+        top:20px !important;
+    }
+    
+    .nou-iryou-img{
+        position: absolute !important;
+        top:200px !important;
+    }
+
+    .btn--daVinci {
+        text-align: center !important;
+        font-weight: bold;
+        font-size: 17px;
+        padding: 7px 15px;
+        margin:0 auto;
+        width: 100%;
+        background: #efeee7;
+    }
+
+    .toiawaseBox .title{
+        width:8.70217%;
+        font-size:1.1666em;
+        padding:0.5em;
+        margin-bottom: 10% !important;
+      }
+
+      .tableLayout .bgw {
+        display:table-cell;
+        vertical-align:middle;
+        background:#fff;
+        width:8.70217% !important;
+        margin: 0 3%;
+      }
+
+    
+}
+
+
+
+.margin-control{
+    margin-right: 0 !important;
+}
+
+.nou-iryou-img2{
+    width: 25% !important;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.btn--yellow {
+    color: #000;
+    background-color: #d6d6d6;
+    border-bottom: 5px solid #7c7c7c;
+  }
+  
+a.btn--yellow:hover {
+    margin-top: 2px;
+    color: #000;
+    background: #d6d6d6;
+    border-bottom: 2px solid #7c7c7c;
+  }
+
+  .toiawaseBox{
+    background: #EEEEE7;
+    padding:2%;
+  }
+
+  .toiawaseBox .telIcon{
+    width:2rem !important;
+    margin-right:0.5rem;
+  }

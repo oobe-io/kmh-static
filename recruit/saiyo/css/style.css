@@ -1,0 +1,21 @@
+@media screen and (min-width: 480px){
+    .w50p{
+        width:50% !important
+    }
+
+    .w20p{
+        width:20% !important
+    }
+
+    .w10p{
+        width:10% !important
+    }
+
+    .h-center{
+        vertical-align: middle !important
+    }
+
+    .mr-cont{
+        margin-right: 5%;
+    }
+}

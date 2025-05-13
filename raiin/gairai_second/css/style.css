@@ -1,0 +1,38 @@
+@media screen and (min-width: 480px){
+    .sp-viwe{
+        display: none !important;
+    }
+    
+    .column_left{
+        position: relative;
+        float: left;
+        width: 38%;
+    }
+
+    .column_right{
+        position: relative;
+        float: right;
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 481px){
+    .pc-viwe{
+        display: none !important;
+    }
+
+    .mb4{
+        margin-bottom: 0 !important;
+    }
+}
+
+.flex{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.pr3{
+    padding-right: 3%;
+}

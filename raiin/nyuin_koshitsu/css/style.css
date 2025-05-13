@@ -1,0 +1,70 @@
+@media screen and (max-width: 481px){
+    .column_left{
+        position: relative;
+        float: left;
+        width: 15%;
+    }
+
+    .column_right {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        width: 82%;
+    }
+
+    .pcviwe{
+        display: none !important;
+    }
+
+    .table-left{
+        display: table;
+        width: 100%;
+        text-align: left;
+    }
+
+    .table-cell-koshitu{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .margin-control{
+        margin-left: 10px;
+    }
+
+    .w20p{
+        width: 20% !important;
+    }
+
+    .w75p{
+        width: 75% !important;
+    }
+
+    .mt2p{
+        margin-top: 2%;
+    }
+
+    .mbt4p{
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+
+    .text-center{
+        text-align: center !important;
+    }
+
+    .p10{
+        padding: 10px;
+    }
+
+    .ml2p{
+        margin-left: 2% !important;
+    }
+}
+
+
+
+@media screen and (min-width: 480px){
+    .spviwe{
+        display: none !important;
+    }
+}

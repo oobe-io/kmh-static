@@ -1,0 +1,19 @@
+@media screen and (max-width:480px){
+    #main .wc33{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:481px){
+    #main .wc33{
+        width: 32%;
+    }
+
+    #main .test{
+        overflow:auto;
+    }
+
+    .margin-control{
+        margin:0 2%  !important;
+    }
+}

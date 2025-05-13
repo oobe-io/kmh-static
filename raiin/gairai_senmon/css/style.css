@@ -1,0 +1,14 @@
+@media screen and (min-width: 480px) {
+    #main .linker a {
+        width: 25%;
+    }
+    #main .linker a.link02 {
+        left: 25%;
+    }
+    #main .linker a.link03 {
+        left: 50%;
+    }
+    #main .linker a.link04 {
+        left: 75%;
+    }
+}

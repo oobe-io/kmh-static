@@ -1,0 +1,9 @@
+@media screen and (max-width: 481px){
+    #contents .bgSp{
+        background: none !important;
+    }
+}
+
+@media screen and (min-width: 480px){
+
+}

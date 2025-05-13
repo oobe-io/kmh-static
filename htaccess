@@ -1,0 +1,29 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(kokurakinen\.sakura\.ne\.jp)(:80)? [NC]
+RewriteRule ^(.*)$ [F]
+
+RewriteEngine on
+RewriteRule	^recruit/saiyo/syoki_kensyui/naika_senmoni/(.*) /recruit/saiyo/kouki_kensyui/sin_senmoni/$1 [L,R=301]
+
+# 2019.07.02 add
+#RewriteRule ^kenkan/heart-dock/ /kenkan/ [L,R=301]
+#RewriteRule ^kenkan/brain-dock/ /kenkan/ [L,R=301]
+#RewriteRule ^kenkan/daichou/ /kenkan/ [L,R=301]
+
+# 2020.01.23 add
+RewriteRule ^raiin/gairai_senmon/sekitsui/(.*) / [L,R=301]
+
+# BEGIN WordPress
+# `BEGIN WordPress` から `END WordPress` までのディレクティブ (行) は
+# 動的に生成され、WordPress フィルターによってのみ修正が可能です。
+# これらのマーカー間にあるディレクティブへのいかなる変更も上書きされてしまいます。
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

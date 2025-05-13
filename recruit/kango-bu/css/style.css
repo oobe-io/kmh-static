@@ -1,0 +1,42 @@
+@media screen and (max-width: 481px){
+    .pcviwe{
+        display: none !important;
+    }
+
+    .spflL{
+        float: left;
+    }
+
+    .spflR{
+        float: right;
+    }
+
+    .spcenter{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .kakko-cont{
+        text-align: left !important;
+        width:20%;
+    }
+
+    .fz11{
+        font-size: 1.25rem;
+    }
+
+    .fz14{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .spviwe{
+        display: none !important;
+    }
+}
+
+
+.mb05{
+    margin-bottom: 0.5rem;
+}

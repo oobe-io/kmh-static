@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+.l-recruit_junkanki_syureni_abroad__title {
+	color: #ddb078;
+	font-size: 16px !important;
+	font-weight: 700;
+	line-height: 1.2 !important;
+	padding: 0.4em 0;
+	text-align: center !important;
+}
+.l-recruit_junkanki_syureni_abroad__title--bordered {
+	border: 1px solid;
+	margin-bottom: 1em;
+}
+.l-recruit_junkanki_syureni_abroad__open_time {
+	font-size: 21px;
+	font-weight: 700;
+}
+.l-recruit_junkanki_syureni_abroad__section {
+	margin-bottom: 90px;
+}
+
+
+#main .l-recruit_junkanki_syureni_abroad__memoir-list li {
+	margin-bottom: 2.7em;
+	border-top: 1px solid #221814;
+	border-bottom: 1px solid #221814;
+	padding: 1em 0;
+	font-size: 0.85rem;
+}
+#main .l-recruit_junkanki_syureni_abroad__memoir-list li dl {
+	display: table;
+	width: 100%;
+}
+
+#main .l-recruit_junkanki_syureni_abroad__memoir-list li dt {
+	font-size: 1.5em;
+	margin-bottom: .5em;
+}
+#main .l-recruit_junkanki_syureni_abroad__memoir-list li dt br {
+	display: none;
+}
+#main .l-recruit_junkanki_syureni_abroad__memoir-list li .thumb img {
+	border:solid 1px #ccc;
+}
+#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd p {
+	line-height: 1.5 !important;
+}
+#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd h2 {
+	line-height: 1.2 !important;
+	margin-bottom: .2em;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd h2.kakkoIndent {
+	margin: 0.5em 0 0 0;
+}
+
+#main .l-recruit_junkanki_syureni_abroad__memoir-list--seminar li dd .headline {
+	font-size: 1.25em;
+	font-weight: bold;
+	display: inline-block;
+}
+#main .l-recruit_junkanki_syureni_abroad__memoir-list--seminar li dd .label {
+	font-size: .875em;
+	margin-left: -.6em;
+	margin-right: -.8em;
+	display: inline-block;
+}
+#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd.file {
+	text-align: center;
+	padding-top: 1em;
+}
+
+@media screen and (min-width:480px){
+	.l-recruit_junkanki_syureni_abroad {
+		box-sizing: border-box;
+		min-width: 980px;
+		padding: 3em 7.874%;
+		width: 82.31%;
+	}
+	.twoColumn .flL, .twoColumn .flR {
+		width: 45.75%;
+	}
+	
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li {
+		margin-bottom: 2.7em;
+		border-top: none;
+		border-bottom: none;
+		padding: 0;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dt {
+		display: table-cell;
+		border-top: 1px solid #221814;
+		border-bottom: 1px solid #221814;
+		width: 14.68%;
+		line-height: 1.22;
+		vertical-align: middle;
+		margin-bottom: 0;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dt br {
+		display: inline;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd {
+		display: table-cell;
+		border-top: 1px solid #221814;
+		border-bottom: 1px solid #221814;
+		font-size: 1.33em;
+		line-height: 1.5;
+		vertical-align: middle;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd.thumb {
+		border-top: none;
+		border-bottom: none;
+		text-align: center !important;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd.thumb img {
+		width: 72.6% !important;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd.detail {
+		width: 52.42%;
+		padding-right: 2.86%;
+		padding-top: .5%;
+		padding-bottom: .5%;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd.file {
+		width: 10.86%;
+		padding-top: 0;
+	}
+
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd p {
+		line-height: 1.5 !important;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd h2 {
+		line-height: 1.2 !important;
+		margin-bottom: .2em;
+		font-weight: bold;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd i {
+		color: #8a8b8a;
+		font-size: 1em;
+		margin-right: .1em;
+	}
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list li dd .title {
+		margin-bottom: 8px;
+	}
+
+	#main .l-recruit_junkanki_syureni_abroad__memoir-list--seminar li dd small {
+		font-size: .875em;
+	}
+}
+
+@media screen and (max-width:480px){
+	.l-recruit_junkanki_syureni_abroad {
+		padding: 5%;
+	}
+}

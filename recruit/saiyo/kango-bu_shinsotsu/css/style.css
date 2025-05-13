@@ -1,0 +1,35 @@
+@media screen and (max-width: 481px){
+    .sp-fz10{
+        font-size: 1.4rem;
+    }
+
+    #main.l-saiyo-youkou a{
+        display: inline;
+        text-decoration:underline;
+    }
+
+    .mr0{
+        margin-right: 0px !important;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 480px){
+    .br-less br{
+        display: none !important;
+    }
+
+    .wid85p{
+        width:85% !important;
+    }
+}
+
+.wid-cont{
+    width: 47% !important;
+}
+
+#main .borderTable td {
+    vertical-align: middle !important;
+}

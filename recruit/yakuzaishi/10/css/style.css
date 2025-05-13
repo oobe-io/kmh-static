@@ -1,0 +1,48 @@
+@media screen and (max-width: 481px){
+    #main .borderBox.mist {
+        border-color: #C9C9CA;
+        color: #C9C9CA;
+    }
+    #main .absLeft.l1e{
+        border-color: #C9C9CA;
+        color: #C9C9CA;    
+    }
+
+    #main .absTop.t1e{
+        top: 1em;
+    }
+
+    #main .borderBox {
+        box-sizing: border-box;
+        border: 2px solid;
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+
+    .sp-center{
+        text-align: center !important;
+    }
+
+    .fz9{
+        font-size: 1.2rem;
+    }
+
+    .fz8{
+        font-size: 1.1rem;
+    }
+
+    .sp-btn{
+        width:65% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mb02{
+        margin-bottom: 0.2rem !important;
+    }
+
+}
+
+@media screen and (min-width: 480px){
+
+}

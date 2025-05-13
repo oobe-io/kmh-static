@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<meta name="robots" content="index, follow">
+	<title>循環器内科修練医|小倉記念病院</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="copyright" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta property="og:type" content="article">
+	<meta property="og:description" content="小倉記念病院は、高い専門性・緊急性のある診療、手術を要する医療を提供することが、ここ福岡・北九州（小倉）地域の住民・患者の皆様への役割と考えています。地域の医療施設が役割分担し、協力して医療を完結する「地域完結型医療」を目指します。">
+	<meta property="og:title" content="患者さんの幸せと地域医療を支える｜小倉記念病院">
+	<meta property="og:url" content="http://www.kokurakinen.or.jp/">
+	<meta property="og:image" content="http://www.kokurakinen.or.jp/images/ogimage.jpg">
+	<meta property="og:site_name" content="小倉記念病院">
+	<link rel="stylesheet" href="/common/css/recruit.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<script src="/common/js/jquery-1.11.1.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="/common/js/html5shiv.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="/common/js/jquery.belatedPNG.min.js"></script>
+	<script src="/common/js/jquery.backgroundSize.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<header>
+	<div id="siteLogo"><a href="/recruit/"><img src="/recruit/images/img_logo.png" alt=""></a></div>
+	<nav id="globalNavi">
+		<ul>
+			<li class="menu01"><a href="/recruit/">TOP</a></li>
+			<li class="menu02"><a href="/recruit/concept/">採用コンセプト</a></li>
+			<li class="menu03"><a href="/recruit/stage/">働く舞台を知る</a></li>
+			<li class="menu04"><a href="/recruit/saiyo/">採用を知る</a></li>
+			<li class="menu05"><a href="/recruit/event/">イベントを知る</a></li>
+			<li class="menu06"><a href="/recruit/fukurikosei/">福利厚生を知る</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="contents">
+	<section id="main" class="full l-detail">
+
+		<div class="bgYellowgreen w100p cf colorWhite h620 pt48 relBox">
+			<div class="container">
+				<div class="mb3 cf z2">
+					<p class="counter flL s2" data-count="36"></p>
+					<div class="flL pt10">
+						<h1 class="fz20 bold">循環器内科修練医</h1>
+						<small class="clL">Cardiology Resident</small>
+					</div>
+				</div>
+				<p class="backBtn"><a href=""><img src="/recruit/images/ico_back.png" alt="">もどる</a></p>
+			</div>
+			<div class="fixImageBox w100p top right mb1">
+				<img src="./images/img_main.jpg" alt="">
+			</div>
+		</div>
+		<div class="bgYellowgreen colorWhite cf w100p z2 contentWrapper">
+			<div class="container cf">
+				<div class="contentBox flL mb1">
+					<div class="photoArea"><img src="./images/img_sub_01.jpg" alt=""></div>
+					<div class="">
+						<p class="headlineB fz9 mb1"><i class="colorWhite">■</i>私の小倉記念病院で叶えたい夢</p>
+						<!-- <p class="subHead"></p> -->
+						<p class="fz7 mb2">私が当科を志望した理由は、もっとインターベンションを学びたい、その思いからでした。遠く離れた地で、女性医師は私一人、当初は少なからず不安もありましたが、手厚く指導して下さる上級医、熱意に溢れた同級医、優秀なスタッフに囲まれ、これほどの症例数に携わることができる環境は他にはありません。現在は冠動脈疾患だけではなく、末梢血管疾患のインターベンションやペースメーカー治療など幅広く経験させて頂いており、非常に充実した毎日を送っています。手技の向上ももちろんですが、ハイボリュームセンターならではの臨床研究や学会発表などにも精を出したいと考えています。
+</p>
+					</div>
+				</div>
+				<div class="contentBox flR mb1">
+					<div class="photoArea"><img src="./images/img_sub_02.jpg" alt=""></div>
+					<div class="">
+						<p class="headlineB fz9 mb1"><i class="colorWhite">■</i>入職希望者へのメッセージ</p>
+						<!-- <p class="subHead"></p> -->
+						<p class="fz7 mb2">何といっても当科の特徴は、冠動脈疾患、末梢血管疾患、不整脈疾患、構造的心疾患など、各分野に信頼できるスペシャリストがいるということです。やる気があればいつでも手が伸ばすことができますし、実際に多岐にわたって活躍されている先輩方が多いのも当科の魅力です。日常業務に臨床研究と忙しい毎日ですが、その分成長するスピードも速く、地道に努力していれば、知らず知らずのうちに驚くほどの力が身に付いていることでしょう。また、縦横の繋がりも強く、小倉でお世話になった先輩方、同じ志を持った仲間達との人脈は、一生の財産になることと信じています。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cf w100p center pb50 z2 bgWhite pt48">
+			<p class="btn mist fz10 dib w400 mb2">
+				<a href="/recruit/saiyo/">採用を知る</a>
+			</p>
+		</div>
+	</section><!--/ #main -->
+</div><!--/ #contents -->
+
+<footer>
+	<div class="inner">
+		<div id="footerMenu">
+			<ul>
+				<li><a href="/privacy/">個人情報保護方針</a></li>
+				<li><a href="/sitemap/">サイトマップ</a></li>
+				<li><a href="http://www.shisenkai.jp/" target="_blank">一般財団法人 平成紫川会</a></li>
+				<li><a href="/gallery/" target="_blank">フォトギャラリー</a></li>
+				<li><a href="/common/pdf/fb_unyou.pdf" target="_blank">Facebook運用ポリシー</a></li>
+			</ul>
+		</div>
+		<p id="copyright">Copyright © 2014Kokura Kinen Hospital All rights reserved. </p>
+	</div>
+</footer>
+
+<script src="/common/js/share.js"></script>
+<script src="/common/js/recruit.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55024782-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

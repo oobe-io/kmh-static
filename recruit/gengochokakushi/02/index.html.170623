@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<meta name="robots" content="index, follow">
+	<title>言語聴覚士|小倉記念病院</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="copyright" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta property="og:type" content="article">
+	<meta property="og:description" content="小倉記念病院は、高い専門性・緊急性のある診療、手術を要する医療を提供することが、ここ福岡・北九州（小倉）地域の住民・患者の皆様への役割と考えています。地域の医療施設が役割分担し、協力して医療を完結する「地域完結型医療」を目指します。">
+	<meta property="og:title" content="患者さんの幸せと地域医療を支える｜小倉記念病院">
+	<meta property="og:url" content="http://www.kokurakinen.or.jp/">
+	<meta property="og:image" content="http://www.kokurakinen.or.jp/images/ogimage.jpg">
+	<meta property="og:site_name" content="小倉記念病院">
+	<link rel="stylesheet" href="/common/css/recruit.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<script src="/common/js/jquery-1.11.1.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="/common/js/html5shiv.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="/common/js/jquery.belatedPNG.min.js"></script>
+	<script src="/common/js/jquery.backgroundSize.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<header>
+	<div id="siteLogo"><a href="/recruit/"><img src="/recruit/images/img_logo.png" alt=""></a></div>
+	<nav id="globalNavi">
+		<ul>
+			<li class="menu01"><a href="/recruit/">TOP</a></li>
+			<li class="menu02"><a href="/recruit/concept/">採用コンセプト</a></li>
+			<li class="menu03"><a href="/recruit/stage/">働く舞台を知る</a></li>
+			<li class="menu04"><a href="/recruit/saiyo/">採用を知る</a></li>
+			<li class="menu05"><a href="/recruit/event/">イベントを知る</a></li>
+			<li class="menu06"><a href="/recruit/fukurikosei/">福利厚生を知る</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="contents">
+	<section id="main" class="full">
+		<div class="bgYellowgreen w100p cf colorWhite h620 pt48 relBox">
+			<div class="container">
+				<div class="mb3 cf z2">
+					<p class="counter flL s2" data-count="02"></p>
+					<div class="flL pt10">
+						<h1 class="fz20 bold">言語聴覚士</h1>
+						<small class="clL">Speech Therapist</small>
+					</div>
+				</div>
+				<p class="backBtn"><a href=""><img src="/recruit/images/ico_back.png" alt="">もどる</a></p>
+			</div>
+			<div class="fixImageBox w100p top right mb1">
+				<img src="./images/img_main.jpg" alt="">
+			</div>
+		</div>
+		<div class="bgWhite cf w100p z2">
+			<div class="fullLeft w600 mb5 pt70 colorWhite bgYellowgreen pSp">
+				<div class="w480 cf">
+					<p class="headlineB fz9 mb1"><i class="colorWhite">■</i>私の小倉記念病院で叶えたい夢</p>
+					<p class="subHead">一人ひとりの背景に合わせることができるセラピストに</p>
+					<p class="fz7 mb8">私の叶えたい夢は、急性期の病院で必要とされる言語聴覚士の役割を果たし、患者さんの気持ちに寄り添いながらよりよいリハビリを提供できるセラピストとして成長することです。<br>当院の在院日数は約12日間と限られた期間です。嚥下や言語に対する評価や訓練を実施していきますが、患者さまの回転の速さや状態の変化により介入方法を検討していく事の大変さを日々感じています。その中で、一人ひとりの背景に合わせアプローチを行っていけるセラピストになれるよう成長していきたいです。</p>
+					<p class="headlineB fz9 mb1"><i class="colorWhite">■</i>入職希望者へのメッセージ</p>
+					<p class="subHead">セラピストとして成長することができる</p>
+					<p class="fz7 mb2">私は新卒で小倉記念病院へ就職しました。新卒ということで1年目は初めてのことばかりで分からないことも多く、不安もたくさんありました。しかし、急性期の多様な疾患の患者さんに評価や訓練を実施する中でセラピストとして成長し勉強することができる場所だと思います。<br>
+また一緒に働くリハビリスタッフは皆さん明るく優しい方々で、内気な私も打ち解けることができたので仕事をする上でも働きやすい職場だと思います。</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="flR w800 relBox">
+					<p class="borderBox absTop absLeft mist l1e t1e">言語聴覚士の1日</p>
+					<div class="timeTable flR w730">
+						<div class="cell rightSide size2">
+							<figure>
+								<img src="./images/img_sub_01.jpg" alt="">
+								<figcaption>8:10　カルテから情報収集</figcaption>
+							</figure>
+						</div>
+						<div class="cell leftSide size2">
+							<figure>
+								<img src="./images/img_sub_02.jpg" alt="">
+								<figcaption>8:30　先輩と情報交換</figcaption>
+							</figure>
+						</div>
+						<div class="cell rightSide size1">
+							<figure>
+								<img src="./images/img_sub_03.jpg" alt="">
+								<figcaption>10:00　ST室にて訓練</figcaption>
+							</figure>
+						</div>
+						<div class="cell leftSide size1">
+							<figure>
+								<img src="./images/img_sub_04.jpg" alt="">
+								<figcaption>12:00　昼食時に嚥下訓練</figcaption>
+							</figure>
+						</div>
+						<div class="cell rightSide size2">
+							<figure>
+								<img src="./images/img_sub_05.jpg" alt="">
+								<figcaption>14:00　病棟にて口腔ケア</figcaption>
+							</figure>
+						</div>
+						<div class="cell leftSide weekend size2">
+							<figure>
+								<img src="./images/img_sub_06.jpg" alt="">
+								<figcaption>田舎に帰ってのんびり過ごす</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cf w100p center pb50 z2 bgWhite pSp">
+			<p class="btn mist fz10 dib w400 mb2">
+				<a href="/recruit/saiyo/">採用を知る</a>
+			</p>
+		</div>
+	</section><!--/ #main -->
+</div><!--/ #contents -->
+
+<footer>
+	<div class="inner">
+		<div id="footerMenu">
+			<ul>
+				<li><a href="/privacy/">個人情報保護方針</a></li>
+				<li><a href="/sitemap/">サイトマップ</a></li>
+				<li><a href="http://www.shisenkai.jp/" target="_blank">一般財団法人 平成紫川会</a></li>
+				<li><a href="/gallery/" target="_blank">フォトギャラリー</a></li>
+				<li><a href="/common/pdf/fb_unyou.pdf" target="_blank">Facebook運用ポリシー</a></li>
+			</ul>
+		</div>
+		<p id="copyright">Copyright © 2014Kokura Kinen Hospital All rights reserved. </p>
+	</div>
+</footer>
+
+<script src="/common/js/share.js"></script>
+<script src="/common/js/recruit.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55024782-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
